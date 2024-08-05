@@ -1,8 +1,20 @@
-# React + Vite
+# Projet en construction
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bonjour ! Je suis Cynthia, une créative en transition vers le développement web.
+À 29 ans, je me lance dans une formation de développeur web pour fusionner ma passion pour le design avec mes nouvelles compétance en code.
 
-Currently, two official plugins are available:
+## Aperçu du projet
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Ce portfolio a été créé pour mettre en valeur mes compétences en développement web et en design. 
+Il est réalisé en React.
+
+## Fonctionnalités
+
+- **Projets réalisés** : Aperçu détaillé des projets sur lesquels j'ai travaillé.
+
+## Technologies utilisées
+
+- **React** : Bibliothèque JavaScript pour construire des interfaces utilisateur.
+- **Radix UI** : Composants accessibles pour React.
+- **GSAP** : Bibliothèque pour animations JavaScript.
+- **React Router Dom** : Gestion du routage pour les applications React.

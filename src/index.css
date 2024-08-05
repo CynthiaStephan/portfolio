@@ -1,9 +1,79 @@
 :root {
-  --fs-sm: clamp(0.8rem, 0.19vi + 0.74rem, 0.89rem);
-  --fs-base: clamp(1rem, 0.38vi + 0.88rem, 1.19rem);
-  --fs-md: clamp(1.25rem, 0.68vi + 1.04rem, 1.58rem);
-  --fs-lg: clamp(1.56rem, 1.12vi + 1.21rem, 2.11rem);
-  --fs-xl: clamp(1.95rem, 1.76vi + 1.4rem, 2.81rem);
-  --fs-xxl: clamp(2.44rem, 2.68vi + 1.6rem, 3.75rem);
-  --fs-xxxl: clamp(3.05rem, 3.99vi + 1.8rem, 5rem);
+
+  /* ____   Font Size  _____*/
+  --fs-sm: clamp(12px, -0.03vi + 12.12px, 11.74px);
+  --fs-base: clamp(16px, 0.34vi + 14.64px, 19px);
+  --fs-md: clamp(21.33px, 1.07vi + 17.05px, 30.74px);
+  --fs-lg: clamp(28.43px, 2.42vi + 18.74px, 49.74px);
+  --fs-xl: clamp(37.9px, 4.84vi + 18.54px, 80.48px);
+  --fs-xxl: clamp(50.52px, 9.06vi + 14.29px, 130.22px);
+  --fs-xxxl: clamp(67.34px, 16.29vi + 2.18px, 210.69px);
+
+  /*____ Colors   ____ */
+  --color-bg: #EFF1F0;
+  --color-font: #1D1D1B;
+
+  /*____ Spacing  ____*/
+  --sp-2px: 0.125rem;
+  --sp-4px: 0.25rem;
+  --sp-6px: 0.375rem;
+  --sp-28px: 1.75rem;
+  --sp-32px: 2rem;
+  --sp-36px: 2.25rem;
+  --sp-40px: 2.5rem;
+  --sp-44px: 2.75rem;
+  --sp-48px: 3rem;
+  --sp-52px: 3.25rem;
+  --sp-56px: 3.5rem;
+  --sp-60px: 3.75rem;
+  --sp-64px: 4rem;
+  --sp-68px: 4.25rem;
+  --sp-72px: 4.5rem;
+  --sp-76px: 4.75rem;
+  --sp-80px: 5rem;
+  --sp-84px: 5.25rem;
+  --sp-88px: 5.5rem;
+  --sp-92px: 5.75rem;
+  --sp-96px: 6rem;
+  --sp-100px: 6.25rem;
+  --sp-104px: 6.5rem;
+  --sp-108px: 6.75rem;
+  --sp-112px: 7rem;
+  --sp-116px: 7.25rem;
+  --sp-120px: 7.5rem;
+  --sp-124px: 7.75rem;
+  --sp-128px: 8rem;
+}
+
+@font-face {
+  font-family: 'Geist';
+  src: url('./assets/font/GeistVF.woff2') format("truetype-variations");
+  font-weight: 1 999;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+font-family: Geist;
+box-sizing: border-box;
+text-transform: uppercase;
+color: var(--color-font);
+background: var(--color-bg);
+}
+
+h1{
+  font-weight: 900;
+  font-size: var(--fs-xxxl);
+}
+
+h2{
+  font-size: var(--fs-xxl);
+  font-weight: 900;
+}
+
+a{
+  text-decoration: none;
 }
