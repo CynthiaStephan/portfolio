@@ -18,7 +18,7 @@ export default function Header(){
 
                 <a href="mailto: cynthia.stephan@institutsolacroup.com">Contactez-moi</a>
 
-                <a href="#">Linkedin</a>
+                <a target="blank" href="https://www.linkedin.com/in/cynthia-stephan/">Linkedin</a>
                 
                 <nav>
                     <ul>
@@ -65,42 +65,3 @@ export default function Header(){
         </>
     )
 }
-
-// const Navbar = () => {
-//     const [isOpen, setIsOpen] = useState(false);
-  
-//     const toggleMenu = () => {
-//       setIsOpen(!isOpen);
-//     };
-  
-//     return (
-//       <header>
-//         <NavLink className="logo" to="/">Cynthia <br />Stephan</NavLink>
-  
-//         <a href="mailto:cynthia.stephan@institutsolacroup.com">Contactez-moi</a>
-  
-//         <a href="#">LinkedIn</a>
-  
-//         <nav className={isOpen ? 'open' : ''}>
-//           <ul>
-//             <li>
-//               <NavLink to="/a-propos">A propos</NavLink>
-//             </li>
-//             <li>
-//               <NavLink to="/projets">Projets</NavLink>
-//             </li>
-//           </ul>
-//         </nav>
-  
-//         <span className="navbar-toggle" onClick={toggleMenu}>
-//           <svg height="24" viewBox="0 0 20 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-//             <line y1="1" x2="20" y2="1" stroke="black" strokeWidth="2" />
-//             <line y1="13" x2="20" y2="13" stroke="black" strokeWidth="2" />
-//             <path d="M5 7L20 7" stroke="black" strokeWidth="2" />
-//           </svg>
-//         </span>
-//       </header>
-//     );
-//   };
-  
-//   export default Navbar;

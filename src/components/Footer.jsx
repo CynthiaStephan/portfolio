@@ -1,17 +1,17 @@
 import { Link } from "react-router-dom";
+import './Footer.css'
 
 export default function Footer(){
 
     return(
         <footer>
             <div>
-                <Link to="/">Cynthia Stephan</Link>
-                <p>© 2024</p>
+                <Link className="logo-footer" to="/">Cynthia <br /> Stephan</Link>
             </div>
 
-            <Link to="#">Mentions légales</Link>
+            <Link to="https://www.linkedin.com/in/cynthia-stephan/">Linkedin</Link>
 
-            <Link to="#">Linkedin</Link>
+            <Link to="#">Mentions légales</Link>
         </footer>
     )
 }
