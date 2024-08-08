@@ -57,6 +57,7 @@
 *{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body{
@@ -84,9 +85,13 @@ a{
   color: var(--color-font);
 }
 
+.d-none{
+  display: none!important;
+}
+
 
 @media (min-width: 768px){
   body{
-    padding: 0 var(--sp-24);
+    padding: 0 var(--sp-52);
   }
 }

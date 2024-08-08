@@ -21,7 +21,7 @@ export default function Homepage(){
             
             <section className="home-presentation">
                 <p>
-                    Actuellement en formation de développeuse web à l'IMTS, je suis à la recherche d'une <span className="bold-text">alternance</span> en tant que <span className="bold-text">développeuse backend</span> à partir de septembre 2024
+                    Actuellement en formation de développeuse web à l'IMTS, je suis à la recherche d'une <span className="bold-text">alternance</span> en tant que <span className="bold-text">développeuse backend</span> à partir de septembre 2024.
                 </p>
                 <p>
                     Après des études en design numérique et en gestion de projet, je souhaite explorer de nouvelles opportunités dans le développement web.

@@ -74,3 +74,34 @@ section.projects-list{
     gap: var(--sp-4);
     
 }
+
+@media (min-width: 768px){
+    section.projects-hero p{
+        font-size: var(--fs-md);
+        width: 70%;
+        padding-left: 35%;
+    }
+
+    section.projects-hero{
+        gap: var(--sp-92);
+        padding: var(--sp-56) 0;
+    }
+
+    section.projects-filter{
+        padding: var(--sp-24) 0;
+    }
+
+    .projects-page section.projects-list{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 0 var(--sp-32);
+    }
+
+    .item-2{
+        margin-top: var(--sp-92);
+    }
+
+    .item-1{
+        margin-bottom: var(--sp-92);
+    }
+}

@@ -2,7 +2,7 @@ section.home-hero{
     padding: var(--sp-32) 0 var(--sp-56) 0;
     display: flex;
     flex-direction: column;
-    gap: 24px;
+    gap: var(--sp-24);
 }
 
 .home-hero h3{
@@ -12,7 +12,7 @@ section.home-hero{
 
 .home-hero p.school{
     font-size: var(--fs-base);
-    font-weight: 600;
+    font-weight: 800;
     text-align: end;
 }
 
@@ -101,3 +101,30 @@ section.contact-frame a{
     font-size: var(--fs-base);
 }
 
+@media (min-width: 768px){
+    section.home-presentation{
+        max-width: 1000px
+    }
+
+    section.home-presentation p{
+        line-height: 2rem;
+        font-size: var(--fs-base);
+        font-weight: 500;
+        letter-spacing: 2px;
+    }
+
+    .homepage div.project-info p{
+        font-size: var(--fs-base);
+    }
+    
+    section.home-projects{
+        padding: var(--sp-92) 0;
+    }
+    section.home-hero{
+        padding: var(--sp-56) 0;
+        gap: var(--sp-32);
+    }
+    .home-hero h3{
+        padding-bottom: var(--sp-16);
+    }
+}
