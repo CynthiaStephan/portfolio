@@ -14,7 +14,7 @@ export default function Homepage(){
                 <h1>Cynthia Stephan</h1>
 
                 <div>
-                    <h3 className="profession">Designer UI/UX & Développeuse Frontend à Dinan</h3>
+                    <h3 className="profession">Designer UI/UX & <br /> Développeuse Frontend à Dinan</h3>
                     <p className="school">En formation à l’IMTS</p>
                 </div>
             </section>

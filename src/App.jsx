@@ -4,6 +4,7 @@ import Header from './components/Header'
 import Homepage from './pages/Homepage'
 import Projects from './pages/Projects'
 import Footer from './components/Footer'
+import MiamApp from './content/MiamApp'
     function App() {
 
     return (
@@ -12,6 +13,7 @@ import Footer from './components/Footer'
                 <Routes>
                     <Route element={<Homepage />} path="/" />
                     <Route element={<Projects />} path="/projets" />
+                    <Route element={<MiamApp />} path='/projets/miamapp' />
                 </Routes>
             </BrowserRouter>
 
