@@ -1,10 +1,9 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import './App.css'
-import Header from './components/Header'
 import Homepage from './pages/Homepage'
 import Projects from './pages/Projects'
-import Footer from './components/Footer'
 import MiamApp from './content/MiamApp'
+import About from './pages/About'
     function App() {
 
     return (
@@ -14,6 +13,7 @@ import MiamApp from './content/MiamApp'
                     <Route element={<Homepage />} path="/" />
                     <Route element={<Projects />} path="/projets" />
                     <Route element={<MiamApp />} path='/projets/miamapp' />
+                    <Route element={<About />} path='/apropos' />
                 </Routes>
             </BrowserRouter>
 

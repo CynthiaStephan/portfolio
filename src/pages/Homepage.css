@@ -91,7 +91,7 @@ section.contact-frame{
 }
 
 section.contact-frame h2{
-    /* text-align: center; */
+    text-align: center;
     word-break: keep-all;
     /* font-size: var(--fs-xl); */
 }
@@ -100,3 +100,4 @@ section.contact-frame a{
     color: var(--color-font);
     font-size: var(--fs-base);
 }
+

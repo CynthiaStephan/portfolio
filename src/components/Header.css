@@ -82,13 +82,12 @@ nav.mobile-nav a{
   width: 100%;
 }
 
-.mobile-nav-overlay span.navbar-toggle{
-  height: 5rem;
-  width: 100%;
+.mobile-navbar .mobile-open-navbar{
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
+  height: var(--sp-80);
 }
 
   

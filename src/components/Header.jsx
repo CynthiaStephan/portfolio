@@ -26,7 +26,7 @@ export default function Header(){
                             <NavLink to="/projets">Projets,</NavLink>
                         </li>
                         <li>
-                            <NavLink to="/a-propos">A propos</NavLink>
+                            <NavLink to="/apropos">A propos</NavLink>
                         </li>
                         
                     </ul>
@@ -39,9 +39,13 @@ export default function Header(){
 
             <div className={`mobile-navbar ${isOpen ? 'open' : ''}`} role="navigation">
                 <div className="mobile-nav-overlay">
-                    <span className="navbar-toggle" onClick={toggleMenu}>
-                        <img className="menu-button" src={closeButton} alt="ferme le menu" />
-                    </span>
+                    
+                    <div className="mobile-open-navbar">
+                        <NavLink className="logo" to="/">Cynthia <br />Stephan</NavLink>
+                        <span className="navbar-toggle" onClick={toggleMenu}>
+                            <img className="menu-button" src={closeButton} alt="ferme le menu" />
+                        </span>
+                    </div>
 
                     <nav className="mobile-nav" role="Navigation Mobile">
                         <ul>
@@ -50,7 +54,7 @@ export default function Header(){
                                 <NavLink to="/projets">Projets</NavLink>
                             </li>
                             <li>
-                                <NavLink to="/a-propos">A propos</NavLink>
+                                <NavLink to="/apropos">A propos</NavLink>
                             </li>
                             <li>
                                 <Link to="mailto: cynthia.stephan@institutsolacroup.com">Contactez-moi</Link>
