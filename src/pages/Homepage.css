@@ -16,10 +16,6 @@ section.home-hero{
     text-align: end;
 }
 
-span.bold-text{
-    font-weight: 800;
-}
-
 section.home-projects{
     padding: var(--sp-56) 0;
     display: flex;
@@ -72,13 +68,13 @@ section.home-projects ul li:last-child{
     border-bottom: 1px solid black;
 }
 
-div.project-info{
+.homepage div.project-info{
     display: flex;
     flex-direction: column;
     gap: var(--sp-4);
 }
 
-div.project-info p{
+.homepage div.project-info p{
     font-size: var(--fs-sm);
 }
 

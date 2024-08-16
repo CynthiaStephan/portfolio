@@ -49,17 +49,17 @@ export default function Header(){
 
                     <nav className="mobile-nav" role="Navigation Mobile">
                         <ul>
-                            
                             <li>
                                 <NavLink to="/projets">Projets</NavLink>
                             </li>
                             <li>
                                 <NavLink to="/apropos">A propos</NavLink>
                             </li>
-                            <li>
+
+                            <li className="mobile-nav-link">
                                 <Link to="mailto: cynthia.stephan@institutsolacroup.com">Contactez-moi</Link>
                             </li>
-                            <li>
+                            <li className="mobile-nav-link">
                                 <Link target="blank" to="https://www.linkedin.com/in/cynthia-stephan/">Linkedin</Link>
                             </li>
                         </ul>

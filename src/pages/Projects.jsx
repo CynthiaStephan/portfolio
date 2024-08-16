@@ -1,12 +1,13 @@
 import "./Projects.css"
-import mockupGuitar from "../assets/img/mockup-guitar.jpg"
-import mockupCreme from "../assets/img/mockup-creme.jpg"
-import mockupMiam from "../assets/img/mockup-miamapp.jpg"
-import Header from "../components/Header"
-import Footer from "../components/Footer"
-import { Link } from "react-router-dom"
+import mockupGuitar from "../assets/img/mockup-guitar.jpg";
+import mockupCreme from "../assets/img/mockup-creme.jpg";
+import mockupMiam from "../assets/img/mockup-miamapp.jpg";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
+import { Link } from "react-router-dom";
 
 export default function Projects(){
+
     return(
         <>
             <Header />
@@ -51,7 +52,7 @@ export default function Projects(){
                     </article>
 
                     <article className="design item-1">
-                        <Link to="/projets/miamapp">
+                        <Link to="miamapp">
                             <img className="project-image" src={mockupMiam} alt="" />
                             <div className="project-text">
                                 <div className="project-info">
@@ -65,7 +66,7 @@ export default function Projects(){
                     </article>
 
                     <article className="design item-2">
-                        <Link to="/projets/miamapp">
+                        <Link to="miamapp">
                             <img className="project-image" src={mockupMiam} alt="" />
                             <div className="project-text">
                                 <div className="project-info">

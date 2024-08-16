@@ -11,9 +11,11 @@ import About from './pages/About'
             <BrowserRouter>
                 <Routes>
                     <Route element={<Homepage />} path="/" />
-                    <Route element={<Projects />} path="/projets" />
-                    <Route element={<MiamApp />} path='/projets/miamapp' />
-                    <Route element={<About />} path='/apropos' />
+                    <Route element={<Projects />} path="projets" />
+                    <Route element={<About />} path='apropos' />
+
+
+                    <Route element={<MiamApp />} path='projets/miamapp' />
                 </Routes>
             </BrowserRouter>
 

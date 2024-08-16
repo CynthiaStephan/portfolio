@@ -71,7 +71,7 @@ export default function Homepage(){
                 </div>
 
                 <div className="home-more-projects">
-                    <Link to="">Plus de projets →</Link>
+                    <Link to="/projets">Plus de projets →</Link>
                 </div>
             </section>
 

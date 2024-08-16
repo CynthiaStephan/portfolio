@@ -9,11 +9,13 @@ export default function About(){
         <>
             <Header />
 
-            <main>
+            <main className="about">
                 <section className="about-hero">
                     <h1>A propos</h1>
                     <p>Développeuse front-end passionnée par la fusion de la technologie et du design.</p>
-                    <img src={Photo} alt="Portrait de Cynthia Stephan" />
+                    <div className="photo-container">
+                        <img src={Photo} alt="Portrait de Cynthia Stephan" />
+                    </div>
                 </section>
 
                 <section className="about-text">

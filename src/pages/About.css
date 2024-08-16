@@ -29,3 +29,38 @@ section.about-text p{
     line-height: 1.5rem;
 
 }
+
+@media (min-width: 768px){
+
+    section.about-hero{
+        padding: var(--sp-56) 0;
+        gap: var(--sp-92);
+    }
+    section.about-hero p{
+        font-size: var(--fs-md);
+        width: 80%;
+        padding-left: 35%;
+    }
+
+    section.about-hero img{
+        width: 45%;
+        padding: unset;
+    }
+
+    .about .photo-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+    }
+
+    .about .about-text{
+        margin-top: -10rem;
+        width: 30%;
+        
+    }
+
+    .about .contact-frame{
+        padding: var(--sp-56) 0 var(--sp-92) 0;
+    }
+
+}

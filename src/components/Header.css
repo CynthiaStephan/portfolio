@@ -90,6 +90,11 @@ nav.mobile-nav a{
   height: var(--sp-80);
 }
 
+.mobile-navbar li.mobile-nav-link a{
+  font-size: var(--fs-md);
+  font-weight: 700;
+}
+
   
   
   /* Styles pour les écrans plus grands */

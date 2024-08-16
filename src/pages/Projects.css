@@ -94,14 +94,13 @@ section.projects-list{
     .projects-page section.projects-list{
         display: grid;
         grid-template-columns: 1fr 1fr;
-        gap: 0 var(--sp-32);
     }
 
     .item-2{
-        margin-top: var(--sp-92);
+        margin-top: var(--sp-120);
     }
 
     .item-1{
-        margin-bottom: var(--sp-92);
+        margin-bottom: var(--sp-120);
     }
 }

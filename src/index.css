@@ -68,6 +68,7 @@ color: var(--color-font);
 background: var(--color-bg);
 padding: 0 var(--sp-8);
 font-weight: 600;
+overflow-x: hidden;
 }
 
 h1{
@@ -87,6 +88,10 @@ a{
 
 .d-none{
   display: none!important;
+}
+
+span.bold-text{
+  font-weight: 800;
 }
 
 
