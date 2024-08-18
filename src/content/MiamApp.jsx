@@ -1,10 +1,12 @@
 import Footer from "../components/Footer"
 import Header from "../components/Header"
 import "./ProjectPresentation.css"
-import mockupMiam from "../assets/img/mockup-miamapp.jpg"
-import menu from "../assets/img/menu.jpg"
-import addMenu from "../assets/img/add-menu.jpg"
-import mockup from "../assets/img/miamapp-mockup.jpg"
+import mockupMiam from "../assets/img/mockup/mockup-miam.jpg"
+import menu from "../assets/img/miamapp/menu.jpg"
+import addMenu from "../assets/img/miamapp/add-menu.jpg"
+import mockup from "../assets/img/miamapp/miamapp-mockup.jpg"
+import month from "../assets/img/miamapp/inscription-moi.jpg"
+import invoice from "../assets/img/miamapp/facturation.jpg"
 
 export default function MiamApp(){
 
@@ -16,7 +18,7 @@ export default function MiamApp(){
                     <h1>MiamApp</h1>
                     <div className="project-info">          
                         <img className="project-mockup" src={mockupMiam} alt="mockup du projet MiamApp" />
-                        <div>
+                        <div className="project-info-detail">
                             <ul>
                                 <li>
                                     <p><span className="bold-text">Année</span> : 2024</p>
@@ -53,9 +55,11 @@ export default function MiamApp(){
 
                     <div className="showcase-images">
                     
-                        <img src={mockup} alt="" />
+                        <img className="img-long" src={mockup} alt="" />
                         <img src={menu} alt="" />
                         <img src={addMenu} alt="" />
+                        <img src={month} alt="" />
+                        <img src={invoice} alt="" />
 
                     </div>
 

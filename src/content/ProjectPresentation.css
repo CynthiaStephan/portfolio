@@ -60,18 +60,28 @@
     gap: var(--sp-12);
 }
 
-.
 
 
-
-@media (min-width: 768px){
-    .single-project section.project-presentation-hero img.project-mockup{
-        max-width: 600px;    
-    }
-
+@media (min-width: 768px) {
     .single-project .project-info{
         display: grid;
         grid-template-columns: 60% auto;
+        gap: var(--sp-32);
+    }
+
+    /* .project-info-detail{
+        margin-top: auto;
+    } */
+
+    .single-project .project-presentation .showcase-images{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: var(--sp-56);
+    }
+
+    .single-project .img-long{
+        grid-column: 1/ span 2 ;
+        width: 100%;
     }
     
 }

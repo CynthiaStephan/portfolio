@@ -1,7 +1,7 @@
 import "./Projects.css"
-import mockupGuitar from "../assets/img/mockup-guitar.jpg";
-import mockupCreme from "../assets/img/mockup-creme.jpg";
-import mockupMiam from "../assets/img/mockup-miamapp.jpg";
+import mockupGuitar from "../assets/img/mockup/mockup-guitar.jpg";
+import mockupCreme from "../assets/img/mockup/mockup-creme.jpg";
+import mockupMiam from "../assets/img/mockup/mockup-miam.jpg";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import { Link } from "react-router-dom";
