@@ -8,6 +8,9 @@ import Footer from "../components/Footer";
 import { Link } from "react-router-dom";
 
 export default function Projects(){
+    const handleLinkClick = () => {
+        window.scrollTo(0, 0);
+      };
 
     return(
         <>
@@ -26,7 +29,7 @@ export default function Projects(){
                 <section className="projects-list">
 
                     <article className="design dev item-1">
-                        <Link to="eliseamar">
+                        <Link to="eliseamar" onClick={handleLinkClick}>
                             <img className="project-image" src={mockupElise} alt="Mockup du projet Elise Amar" />
                             <div className="project-text">
                                 <div className="project-info">
@@ -40,7 +43,7 @@ export default function Projects(){
                     </article>
 
                     <article className="design item-2">
-                        <Link to="miamapp">
+                        <Link to="miamapp" onClick={handleLinkClick}>
                             <img className="project-image" src={mockupMiam} alt="Mockup du projet MiamApp" />
                             <div className="project-text">
                                 <div className="project-info">
@@ -54,7 +57,7 @@ export default function Projects(){
                     </article>
 
                     <article className="design dev item-1">
-                        <Link to="dailyfy">
+                        <Link to="dailyfy" onClick={handleLinkClick}>
                             <img className="project-image" src={mockupDailyfy} alt="" />
                             <div className="project-text">
                                 <div className="project-info">
@@ -67,8 +70,8 @@ export default function Projects(){
                         </Link>
                     </article>
 
-                    <article className="design dev item-2">
-                        <Link to="fgodf">
+                    <article className="design item-2">
+                        <Link to="fgodf" onClick={handleLinkClick}>
                             <img className="project-image" src={mockupFgodf} alt="" />
                             <div className="project-text">
                                 <div className="project-info">
@@ -76,7 +79,7 @@ export default function Projects(){
                                     <h2>Fondation grand orient de france</h2>
                                     <p className="project-tool">Javascript, Php, css, Figma</p>
                                 </div>
-                                <p className="project-category">Design, Developpement</p>
+                                <p className="project-category">Design</p>
                             </div>
                         </Link>
                     </article>

@@ -28,7 +28,7 @@ export default function Fgodf(){
                                     <p><span className="bold-text">Année</span> : 2023</p>
                                 </li>
                                 <li>
-                                    <p><span className="bold-text">Client</span> : Project fictif</p>
+                                    <p><span className="bold-text">Client</span> : Marie Geffroy</p>
                                 </li>
                                 <li>
                                     <p><span className="bold-text">Service</span> : Maquette fonctionnelle</p>

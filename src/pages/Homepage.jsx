@@ -5,6 +5,9 @@ import Header from "../components/Header";
 import Footer from "../components/Footer"
 
 export default function Homepage(){
+    const handleLinkClick = () => {
+        window.scrollTo(0, 0);
+      };
 
     return(
         <>
@@ -36,7 +39,7 @@ export default function Homepage(){
                 <div>
                     <ul>
                         <li>
-                            <Link to ="projets/eliseamar">
+                            <Link to ="projets/eliseamar" onClick={handleLinkClick}>
                                 <div className="project-info">                           
                                     <p className="project-category">Développement Web / UX|UI Design</p>
                                     <h3 className="project-name">Elise Amar</h3>
@@ -47,7 +50,7 @@ export default function Homepage(){
                         </li>
 
                         <li>
-                            <Link to ="projets/miamapp">
+                            <Link to ="projets/miamapp" onClick={handleLinkClick}>
                                 <div className="project-info">                           
                                     <p className="project-category">UX|UI Design</p>
                                     <h3 className="project-name">MiamApp</h3>
@@ -58,7 +61,7 @@ export default function Homepage(){
                         </li>
 
                         <li>
-                            <Link to ="projets/dailyfy">
+                            <Link to ="projets/dailyfy" onClick={handleLinkClick}>
                                 <div className="project-info">                           
                                     <p className="project-category">Développement Web / UX|UI Design</p>
                                     <h3 className="project-name">Dailyfy</h3>
