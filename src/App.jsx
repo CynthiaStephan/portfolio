@@ -6,6 +6,7 @@ import MiamApp from './content/MiamApp'
 import About from './pages/About'
 import EliseAmar from './content/EliseAmar'
 import Dailyfy from './content/Dailyfy'
+import Fgodf from './content/Fgodf'
     function App() {
 
     return (
@@ -20,6 +21,8 @@ import Dailyfy from './content/Dailyfy'
                     <Route element={<MiamApp />} path='projets/miamapp' />
                     <Route element={<EliseAmar />} path='projets/eliseamar' />
                     <Route element={<Dailyfy />} path='projets/dailyfy' />
+                    <Route element={<Fgodf />} path='projets/fgodf' />
+                    
                 </Routes>
             </BrowserRouter>
 

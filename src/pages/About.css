@@ -24,10 +24,10 @@ section.about-text{
 
 section.about-text p{
     text-transform: none;
-    font-weight: 500;
+    font-weight: 400;
     padding: 0 var(--sp-12);
     font-size: 18px;
-    line-height: 1.5rem;
+    line-height: 1.75rem;
 
 }
 
@@ -56,8 +56,8 @@ section.about-text p{
 
     .about .about-text{
         margin-top: -10rem;
-        width: 30%;
-        
+        margin-left: 10vw;
+        width: 34.5rem;
     }
 
     .about .contact-frame{

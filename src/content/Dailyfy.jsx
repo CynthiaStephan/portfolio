@@ -46,12 +46,11 @@ export default function Dailyfy(){
                     <div className="context">
                         <h2>Contexte</h2>
                         <p>
-                            Dans le cadre de ce projet, Elise Amar, psychologue à Dinard et Saint-Malo, 
-                            souhaite avoir un site internet vitrine pour gagner en visibilité et présenter ses thérapies. <br />
-                            Le cahier des charges contient : <br />
-                            Les codes couleur, le logo, une arborescence, contenu texte, informations et fonctionnalités. <br />
-                            Et le positionnement suivant : <br />
-                            Cabinet de psychologue familial rassurant et ouvert. Choisir des couleurs bleues, vertes, pastelles pour inspirer le calme et l’écoute dans un cadre rassurant. Lieu ouvert aux enfants. Elise Amar pratique plusieurs axes de thérapies. L’ensemble se veut clair et aéré.
+                            J’ai effectué mon stage chez Click&Digital, une agence de communication globale orientée Web à Saint-Malo. 
+                            Présidée par Antoine Sebille, l’agence accompagne des entreprises dans leur communication sur Internet.
+                            Elle réalise des sites Internet, met en place des stratégies SEO/SEA, gestion des réseaux sociaux, création d’identité visuelle.
+                            Pendant la durée de ce stage, j'ai principalement travaillé sur le front de l’application Dailyfy, un outil pour gérer sa communication sur les réseaux sociaux. 
+                            Dans le cadre de ce projet, mon rôle est de faire des propositions d’amélioration de l'UX/UI de l’application et de faire l’intégration en CSS, JavaScript et Php. 
                         </p>          
                     </div>
 

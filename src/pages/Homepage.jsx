@@ -36,10 +36,21 @@ export default function Homepage(){
                 <div>
                     <ul>
                         <li>
-                            <Link to ="#">
+                            <Link to ="projets/eliseamar">
                                 <div className="project-info">                           
-                                    <p className="project-category">Application web / UX|UI Design</p>
-                                    <h3 className="project-name">Nom du projet 1</h3>
+                                    <p className="project-category">Développement Web / UX|UI Design</p>
+                                    <h3 className="project-name">Elise Amar</h3>
+                                    <p className="project-date">2023</p>
+                                </div>
+                                <img className="project-arrow" src={arrowProject} alt="ouvrir detail du projet" />
+                            </Link>
+                        </li>
+
+                        <li>
+                            <Link to ="projets/miamapp">
+                                <div className="project-info">                           
+                                    <p className="project-category">UX|UI Design</p>
+                                    <h3 className="project-name">MiamApp</h3>
                                     <p className="project-date">2024</p>
                                 </div>
                                 <img className="project-arrow" src={arrowProject} alt="ouvrir detail du projet" />
@@ -47,21 +58,10 @@ export default function Homepage(){
                         </li>
 
                         <li>
-                            <Link to ="#">
+                            <Link to ="projets/dailyfy">
                                 <div className="project-info">                           
-                                    <p className="project-category">Développement Web / React</p>
-                                    <h3 className="project-name">Nom du projet 2</h3>
-                                    <p className="project-date">2024</p>
-                                </div>
-                                <img className="project-arrow" src={arrowProject} alt="ouvrir detail du projet" />
-                            </Link>
-                        </li>
-
-                        <li>
-                            <Link to ="#">
-                                <div className="project-info">                           
-                                    <p className="project-category">Développement Web / Html - css</p>
-                                    <h3 className="project-name">Nom du projet 3</h3>
+                                    <p className="project-category">Développement Web / UX|UI Design</p>
+                                    <h3 className="project-name">Dailyfy</h3>
                                     <p className="project-date">2024</p>
                                 </div>
                                 <img className="project-arrow" src={arrowProject} alt="ouvrir detail du projet" />
