@@ -12,6 +12,7 @@ padding-left: 30%;
 section.about-hero img{
     padding-left: 10%;
     display: block;
+    max-width: 100%;
 }
 
 section.about-text{

@@ -16,8 +16,10 @@ export default function MiamApp(){
             <main className="single-project miamapp">
                 <section className="project-presentation-hero">
                     <h1>MiamApp</h1>
+
                     <div className="project-info">          
                         <img className="project-mockup" src={mockupMiam} alt="mockup du projet MiamApp" />
+                        
                         <div className="project-info-detail">
                             <ul>
                                 <li>
@@ -37,9 +39,8 @@ export default function MiamApp(){
                                 </li>
                             </ul>
                             
-                            <div className="project-link">
-                                <a href="#" target="blank">Voir la maquette ↗</a>
-                                <a href="#" target="blank">Voir le site ↗</a>
+                            <div className="project-link one-link">
+                                <a href="https://www.figma.com/design/REWBkvdLH7BU7TZnU8PCcr/Miamapp---Interface-user-Edit?node-id=2037-3511&t=9gRsdnXwZkOXlnZo-1" target="blank">Voir la maquette ↗</a>
                             </div>
                         </div>
                     </div>

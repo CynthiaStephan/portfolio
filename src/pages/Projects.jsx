@@ -1,7 +1,7 @@
 import "./Projects.css"
-import mockupGuitar from "../assets/img/mockup/mockup-guitar.jpg";
-import mockupCreme from "../assets/img/mockup/mockup-creme.jpg";
 import mockupMiam from "../assets/img/mockup/mockup-miam.jpg";
+import mockupElise from "../assets/img/mockup/mockup-elise.jpg"
+import mockupDailyfy from "../assets/img/mockup/mockup-dailyfy.jpg"
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import { Link } from "react-router-dom";
@@ -23,51 +23,24 @@ export default function Projects(){
                 </section>
 
                 <section className="projects-list">
-                    <article className="design item-1">
-                        <Link to="#">
-                            <img className="project-image" src={mockupCreme} alt="" />
+
+                    <article className="design dev item-1">
+                        <Link to="eliseamar">
+                            <img className="project-image" src={mockupElise} alt="Mockup du projet Elise Amar" />
                             <div className="project-text">
                                 <div className="project-info">
                                     <p>2023</p>
-                                    <h2>La Créme</h2>
-                                    <p className="project-tool">Figma</p>
+                                    <h2>Elise Amar</h2>
+                                    <p className="project-tool">Figma, HTML, CSS</p>
                                 </div>
-                                <p className="project-category">Design</p>
-                            </div>
-                        </Link>
-                    </article>
-
-                    <article className="dev item-2">
-                        <Link to="#">
-                            <img className="project-image" src={mockupGuitar} alt="" />
-                            <div className="project-text">
-                                <div className="project-info">
-                                    <p>2024</p>
-                                    <h2>GuitarShop</h2>
-                                    <p className="project-tool">WordPress</p>
-                                </div>
-                                <p className="project-category">Intégration web</p>
-                            </div>
-                        </Link>
-                    </article>
-
-                    <article className="design item-1">
-                        <Link to="miamapp">
-                            <img className="project-image" src={mockupMiam} alt="" />
-                            <div className="project-text">
-                                <div className="project-info">
-                                    <p>2024</p>
-                                    <h2>MiamApp</h2>
-                                    <p className="project-tool">Figma</p>
-                                </div>
-                                <p className="project-category">Design</p>
+                                <p className="project-category">Design, Developpement</p>
                             </div>
                         </Link>
                     </article>
 
                     <article className="design item-2">
                         <Link to="miamapp">
-                            <img className="project-image" src={mockupMiam} alt="" />
+                            <img className="project-image" src={mockupMiam} alt="Mockup du projet MiamApp" />
                             <div className="project-text">
                                 <div className="project-info">
                                     <p>2024</p>
@@ -79,16 +52,16 @@ export default function Projects(){
                         </Link>
                     </article>
 
-                    <article className="design item-1">
-                        <Link to="/projets/miamapp">
-                            <img className="project-image" src={mockupMiam} alt="" />
+                    <article className="design dev item-1">
+                        <Link to="/projets/dailyfy">
+                            <img className="project-image" src={mockupDailyfy} alt="" />
                             <div className="project-text">
                                 <div className="project-info">
                                     <p>2024</p>
-                                    <h2>MiamApp</h2>
-                                    <p className="project-tool">Figma</p>
+                                    <h2>Dailyfy</h2>
+                                    <p className="project-tool">Figma, CSS, Php</p>
                                 </div>
-                                <p className="project-category">Design</p>
+                                <p className="project-category">Design, Developpement</p>
                             </div>
                         </Link>
                     </article>

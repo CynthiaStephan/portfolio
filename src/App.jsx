@@ -4,6 +4,8 @@ import Homepage from './pages/Homepage'
 import Projects from './pages/Projects'
 import MiamApp from './content/MiamApp'
 import About from './pages/About'
+import EliseAmar from './content/EliseAmar'
+import Dailyfy from './content/Dailyfy'
     function App() {
 
     return (
@@ -16,6 +18,8 @@ import About from './pages/About'
 
 
                     <Route element={<MiamApp />} path='projets/miamapp' />
+                    <Route element={<EliseAmar />} path='projets/eliseamar' />
+                    <Route element={<Dailyfy />} path='projets/dailyfy' />
                 </Routes>
             </BrowserRouter>
 
