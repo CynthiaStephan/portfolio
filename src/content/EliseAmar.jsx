@@ -39,8 +39,8 @@ export default function EliseAmar(){
                             </ul>
                             
                             <div className="project-link">
-                                <a href="#" target="blank">Voir la maquette ↗</a>
-                                <a href="#" target="blank">Voir le site ↗</a>
+                                <a href="https://www.figma.com/proto/cKNEiqm5wlN7iL7hcSPBRm/Psychologue_FrontEnd?page-id=0%3A1&node-id=48-4&viewport=741%2C900%2C0.05&t=XT0vBMxMDICh2b1H-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=48%3A4&show-proto-sidebar=1" target="blank">Voir la maquette ↗</a>
+                                <a href="https://cynthia.errhub404.fr/elise-psychologue/" target="blank">Voir le site ↗</a>
                             </div>
                         </div>
                     </div>
@@ -50,13 +50,15 @@ export default function EliseAmar(){
                     <div className="context">
                         <h2>Contexte</h2>
                         <p>
-                            Dans le cadre de ce projet, Elise Amar, psychologue à Dinard et Saint-Malo, 
-                            souhaite avoir un site internet vitrine pour gagner en visibilité et présenter ses thérapies. <br />
-                            Le cahier des charges contient : <br />
-                            Les codes couleur, le logo, une arborescence, contenu texte, informations et fonctionnalités. <br />
-                            Et le positionnement suivant : <br />
-                            Cabinet de psychologue familial rassurant et ouvert. Choisir des couleurs bleues, vertes, pastelles pour inspirer le calme et l’écoute dans un cadre rassurant. Lieu ouvert aux enfants. Elise Amar pratique plusieurs axes de thérapies. L’ensemble se veut clair et aéré.
-                        </p>          
+                            <span className="bold-text">Projet : Site Vitrine pour Elise Amar, Psychologue à Dinard et Saint-Malo</span>
+                        </p>
+                        <p>
+                            Elise Amar, psychologue spécialisée en thérapies familiales, a exprimé le besoin d'un site internet vitrine pour accroître sa visibilité en ligne et présenter ses services. Le cahier des charges comprenait la définition des codes couleurs, du logo, de l'arborescence, du contenu texte, ainsi que des fonctionnalités requises.
+                        </p>
+                        <p>
+                            Le site devait refléter un positionnement clair : un cabinet familial, rassurant et ouvert, utilisant des teintes bleues, vertes et pastel pour créer une atmosphère calme et propice à l'écoute. Le design devait être épuré et aéré, en accord avec les divers axes de thérapies pratiqués, tout en étant accueillant pour les enfants.
+
+                        </p>
                     </div>
 
                     <div className="showcase-images">

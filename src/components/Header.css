@@ -3,7 +3,10 @@ header {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  height: 5rem;
+  height: 4rem;
+  background: var(--color-bg);
+  position: sticky;
+  top: 0;
 }
 
 header a:not(.logo){
@@ -102,6 +105,7 @@ nav.mobile-nav a{
     header {
       flex-direction: row;
       justify-content: space-between;
+      height: 5rem;
     }
     
     header a:not(.logo){

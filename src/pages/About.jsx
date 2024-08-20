@@ -21,7 +21,7 @@ export default function About(){
                 <section className="about-text">
                     <p>
                         Passionnée par l'informatique et le design depuis mon enfance, j'ai choisi de me spécialiser dans le développement web et le design UI/UX pour allier créativité et technicité. En tant que développeuse web front-end et designer UI/UX, je m'efforce de créer des expériences utilisateur harmonieuses et engageantes. 
-                    Mon expérience au sein du projet SaaS Dailyfy a été particulièrement enrichissante, me permettant d'exercer à la fois des compétences de designer et de développeuse front-end, et de relever des défis techniques et créatifs.
+                        Au fil de mon parcours, j'ai eu la chance de participer à divers projets qui m'ont permis de développer à la fois mes compétences en design et en développement front-end. Ces expériences m'ont confrontée à des défis techniques et créatifs, enrichissant ainsi mon approche et ma compréhension de la création d'interfaces utilisateur et d'optimisation de l'expérience utilisateur.
                     </p>
                     <p>
                         Mon approche du design est avant tout pragmatique et centrée sur l'utilisateur. Je m'efforce de rendre chaque parcours utilisateur aussi fluide et accessible que possible. J'accorde une grande importance à la veille technologique et au design, consacrant plusieurs heures par semaine à me tenir informée des dernières tendances pour toujours proposer des solutions à la pointe de la technologie.

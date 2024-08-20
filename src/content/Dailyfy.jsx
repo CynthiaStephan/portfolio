@@ -46,12 +46,14 @@ export default function Dailyfy(){
                     <div className="context">
                         <h2>Contexte</h2>
                         <p>
-                            J’ai effectué mon stage chez Click&Digital, une agence de communication globale orientée Web à Saint-Malo. 
-                            Présidée par Antoine Sebille, l’agence accompagne des entreprises dans leur communication sur Internet.
-                            Elle réalise des sites Internet, met en place des stratégies SEO/SEA, gestion des réseaux sociaux, création d’identité visuelle.
-                            Pendant la durée de ce stage, j'ai principalement travaillé sur le front de l’application Dailyfy, un outil pour gérer sa communication sur les réseaux sociaux. 
-                            Dans le cadre de ce projet, mon rôle est de faire des propositions d’amélioration de l'UX/UI de l’application et de faire l’intégration en CSS, JavaScript et Php. 
-                        </p>          
+                            <span className="bold-text">Stage chez Click&Digital - Agence de Communication Web à Saint-Malo</span>
+                        </p>
+                        <p>
+                            J’ai effectué mon stage chez Click&Digital, une agence dirigée par Antoine Sebille, spécialisée dans la communication numérique. L'agence accompagne les entreprises dans leur stratégie en ligne, incluant la création de sites web, les stratégies SEO/SEA, la gestion des réseaux sociaux et la création d'identités visuelles.  
+                        </p>
+                        <p>
+                            J'ai principalement travaillé sur le projet Dailyfy, une application SaaS développée pour optimiser la gestion des réseaux sociaux. Mon rôle a été axé sur l'analyse de l'expérience utilisateur (UX) et de l'interface utilisateur (UI), afin d'identifier des opportunités d'amélioration et d'implémenter des changements significatifs. J'ai également pris en charge l'intégration des modifications en utilisant CSS, JavaScript et PHP pour assurer une interface fluide, réactive et esthétiquement plaisante.
+                        </p>
                     </div>
 
                     <div className="showcase-images">

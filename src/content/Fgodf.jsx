@@ -52,14 +52,12 @@ export default function Fgodf(){
                     <div className="context">
                         <h2>Contexte</h2>
                         <p>
-                            Contexte : <br />
-                            Refonte du site web d'une fondation. Création de maquettes fonctionnelles et de l'arborescence pour élaborer un cahier des charges destiné à une agence web.
+                            Lors de ce stage, j'ai participé à la refonte du site web d'une fondation dans le cadre de ma formation Prépa Num. J'ai contribué à la création des maquettes fonctionnelles et à la définition de l'arborescence du site pour préparer un cahier des charges destiné à une agence web.
                         </p>
                         <p>
-                            Livrables : <br />
-                            Maquettes fonctionnelles (mobile et desktop)
-                            Arborescence
-                        </p>
+                            <span className="bold-text">Contributions : </span><br />
+                                Maquettes fonctionnelles : Conception de maquettes pour mobile et desktop, visant à optimiser l'ergonomie et l'expérience utilisateur. <br />
+                                Arborescence du site : Structuration logique des contenus pour assurer une navigation fluide et intuitive.</p>
                     </div>
 
                     <div className="showcase-images">
