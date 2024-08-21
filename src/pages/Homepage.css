@@ -97,6 +97,29 @@ section.contact-frame a{
     font-size: var(--fs-base);
 }
 
+section.home-projects ul li {
+    position: relative;
+}
+
+.homepage .hover-img {
+    position: absolute;
+    top:20%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    width: 30vw; 
+    height: auto;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease; 
+    z-index: 2; 
+}
+
+.homepage .img-fluid {
+    width: 100%;
+    height: auto;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+
 @media (min-width: 768px){
     section.home-presentation{
         max-width: 1000px
@@ -123,4 +146,13 @@ section.contact-frame a{
     .home-hero h3{
         padding-bottom: var(--sp-16);
     }
+
+    .homepage ul li:hover .hover-img {
+        opacity: 1;
+    }
+
+    .homepage .hover-img {
+        width: 25vw;
+    }
+
 }

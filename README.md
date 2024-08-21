@@ -1,7 +1,6 @@
 # Projet en construction
 
 Bonjour ! Je suis Cynthia, une créative en transition vers le développement web.
-À 29 ans, je me lance dans une formation de développeur web pour fusionner ma passion pour le design avec mes nouvelles compétance en code.
 
 ## Aperçu du projet
 
@@ -14,7 +13,8 @@ Il est réalisé en React.
 
 ## Technologies utilisées
 
-- **React** : Bibliothèque JavaScript pour construire des interfaces utilisateur.
-- **Radix UI** : Composants accessibles pour React.
-- **GSAP** : Bibliothèque pour animations JavaScript.
-- **React Router Dom** : Gestion du routage pour les applications React.
+- **React** 
+- **GSAP** 
+- **React Router Dom** 
+- **Lenis**
+- **OGL**
