@@ -9,10 +9,10 @@ import Footer from "../components/Footer";
 import mockupElise from "../assets/img/mockup/mockup-elise.jpg";
 import mockupMiam from "../assets/img/mockup/mockup-miam.jpg";
 import mockupDailyfy from "../assets/img/mockup/mockup-dailyfy.jpg";
-import FlowmapCanvas from '../FlowmapCanvas';
 
 export default function Homepage() {
     const handleLinkClick = () => {
+        console.log('Link clicked');
         window.scrollTo(0, 0);
     };
 

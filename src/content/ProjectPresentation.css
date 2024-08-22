@@ -98,5 +98,9 @@
     .single-project .project-presentation .context p{
         width: 43.75rem;
     }
+
+    .single-project h1{
+        line-height: 11rem;
+    }
         
 }

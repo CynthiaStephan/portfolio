@@ -11,6 +11,11 @@ export default function Header(){
       setIsOpen(!isOpen);
     };
 
+    const handleLinkClick = () => {
+        console.log('Link clicked');
+        window.scrollTo(0, 0);
+    };
+
     return(
         <>
             <header>
@@ -23,10 +28,10 @@ export default function Header(){
                 <nav>
                     <ul>
                         <li>
-                            <NavLink to="/projets">Projets,</NavLink>
+                            <NavLink to="/projets" onClick={handleLinkClick}>Projets,</NavLink>
                         </li>
                         <li>
-                            <NavLink to="/apropos">A propos</NavLink>
+                            <NavLink to="/apropos" onClick={handleLinkClick}>A propos</NavLink>
                         </li>
                         
                     </ul>
@@ -50,10 +55,10 @@ export default function Header(){
                     <nav className="mobile-nav" role="Navigation Mobile">
                         <ul>
                             <li>
-                                <NavLink to="/projets">Projets</NavLink>
+                                <NavLink to="/projets" onClick={handleLinkClick}>Projets</NavLink>
                             </li>
                             <li>
-                                <NavLink to="/apropos">A propos</NavLink>
+                                <NavLink to="/apropos" onClick={handleLinkClick}>A propos</NavLink>
                             </li>
 
                             <li className="mobile-nav-link">

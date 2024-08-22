@@ -8,14 +8,19 @@ import EliseAmar from './content/EliseAmar'
 import Dailyfy from './content/Dailyfy'
 import Fgodf from './content/Fgodf'
 import { ReactLenis, useLenis } from 'lenis/react'
+import Cursor from './components/Cursor'
 
     function App() {
         const lenis = useLenis(({ scroll }) => {
             // called every scroll
-          })
+          });
+
+          
     return (
         <>
             <ReactLenis root>
+
+            <Cursor />
                 <BrowserRouter>
 
                     <Routes>
