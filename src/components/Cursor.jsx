@@ -68,7 +68,7 @@ export default function Cursor() {
           event.target.onclick !== null ||
           Array.from(event.target.classList).includes("curzr-hover")
         ) {
-          this.hover(40);
+          this.hover(50);
         } else {
           this.hoverout();
         }

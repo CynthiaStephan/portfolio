@@ -22,10 +22,10 @@ export default function Projects(){
                     <p>Différents projets réalisées dans le cadre de ma formation</p>
                 </section>
 
-                <section className="projects-filter">
+                {/* <section className="projects-filter">
                     <button>Design</button>
                     <button>Développement web</button>
-                </section>
+                </section> */}
 
                 <section className="projects-list">
 

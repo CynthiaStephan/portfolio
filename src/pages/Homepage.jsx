@@ -12,7 +12,6 @@ import mockupDailyfy from "../assets/img/mockup/mockup-dailyfy.jpg";
 
 export default function Homepage() {
     const handleLinkClick = () => {
-        console.log('Link clicked');
         window.scrollTo(0, 0);
     };
 
@@ -49,10 +48,10 @@ export default function Homepage() {
                 const currentX = e.clientX;
 
                 if (currentX < oldx && (lastCursorX === null || currentX <= (lastCursorX - cursorThreshold))) {
-                    gsap.to(innerImage, { rotation: -7 });
+                    gsap.to(innerImage, { rotation: -7, duration: 0.5 });
                     lastCursorX = currentX;
                 } else if (currentX > oldx && (lastCursorX === null || currentX >= (lastCursorX + cursorThreshold))) {
-                    gsap.to(innerImage, { rotation: 7 });
+                    gsap.to(innerImage, { rotation: 7, duration: 0.5 });
                     lastCursorX = currentX;
                 }
 
@@ -60,7 +59,7 @@ export default function Homepage() {
             };
 
             const resetImageTransform = () => {
-                gsap.to(innerImage, { x: 0, rotation: 0 });
+                gsap.to(innerImage, { x: 0, rotation: 0, duration: 0.5 });
             };
 
             el.addEventListener("mousemove", mouseMoveHandler);
