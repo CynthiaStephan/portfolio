@@ -30,13 +30,13 @@ export default function Projects(){
                 <section className="projects-list">
 
                     <article className="design dev item-1">
-                        <Link to="eliseamar" onClick={handleLinkClick}>
-                            <img className="project-image" src={mockupElise} alt="Mockup du projet Elise Amar" />
+                        <Link to="dailyfy" onClick={handleLinkClick}>
+                            <img className="project-image" src={mockupDailyfy} alt="" />
                             <div className="project-text">
                                 <div className="project-info">
-                                    <p>2023</p>
-                                    <h2>Elise Amar</h2>
-                                    <p className="project-tool">Figma, HTML, CSS</p>
+                                    <p>2024</p>
+                                    <h2>Dailyfy</h2>
+                                    <p className="project-tool">Javascript, Php, css, Figma</p>
                                 </div>
                                 <p className="project-category">Design, Developpement</p>
                             </div>
@@ -56,15 +56,15 @@ export default function Projects(){
                             </div>
                         </Link>
                     </article>
-
+                    
                     <article className="design dev item-1">
-                        <Link to="dailyfy" onClick={handleLinkClick}>
-                            <img className="project-image" src={mockupDailyfy} alt="" />
+                        <Link to="eliseamar" onClick={handleLinkClick}>
+                            <img className="project-image" src={mockupElise} alt="Mockup du projet Elise Amar" />
                             <div className="project-text">
                                 <div className="project-info">
-                                    <p>2024</p>
-                                    <h2>Dailyfy</h2>
-                                    <p className="project-tool">Javascript, Php, css, Figma</p>
+                                    <p>2023</p>
+                                    <h2>Elise Amar</h2>
+                                    <p className="project-tool">Figma, HTML, CSS</p>
                                 </div>
                                 <p className="project-category">Design, Developpement</p>
                             </div>
@@ -76,9 +76,9 @@ export default function Projects(){
                             <img className="project-image" src={mockupFgodf} alt="" />
                             <div className="project-text">
                                 <div className="project-info">
-                                    <p>2024</p>
+                                    <p>2023</p>
                                     <h2>Fondation grand orient de france</h2>
-                                    <p className="project-tool">Javascript, Php, css, Figma</p>
+                                    <p className="project-tool">Figma</p>
                                 </div>
                                 <p className="project-category">Design</p>
                             </div>

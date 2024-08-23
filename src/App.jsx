@@ -9,6 +9,7 @@ import Dailyfy from './content/Dailyfy'
 import Fgodf from './content/Fgodf'
 import { ReactLenis, useLenis } from 'lenis/react'
 import Cursor from './components/Cursor'
+import CircleCursor from './components/CircleCursor'
 
     function App() {
         const lenis = useLenis(({ scroll }) => {
@@ -21,6 +22,7 @@ import Cursor from './components/Cursor'
             <ReactLenis root>
 
             <Cursor />
+            {/* <CircleCursor /> */}
                 <BrowserRouter>
 
                     <Routes>
