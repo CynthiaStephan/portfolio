@@ -1,9 +1,0 @@
-.curzr-ring-dot{
-    opacity: 0!important;
-}
-
-@media (min-width: 768px){
-    .curzr-ring-dot{
-        opacity: 1!important;
-    }
-}

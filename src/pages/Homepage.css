@@ -95,7 +95,8 @@ section.contact-frame h2{
 section.contact-frame a{
     color: var(--color-font);
     font-size: var(--fs-base);
-    font-size: var(--fs-md)
+    font-size: var(--fs-md);
+    text-align: center;
 }
 
 section.home-projects ul li {
@@ -157,11 +158,11 @@ section.home-projects ul li {
     }
 
     .homepage ul li{
-        transition: padding 0.4s ease-in-out;
+        transition: padding 0.55s ease-in-out;
     }
 
     .homepage ul li:hover{
-        padding: var(--sp-24) 0;
+        padding: var(--sp-32) 0;
     }
 
 
