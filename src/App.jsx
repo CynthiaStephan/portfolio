@@ -19,38 +19,22 @@ import AnimatedCursor from 'react-animated-cursor'
     return (
         <>
             <ReactLenis root>
-            {/* <AnimatedCursor
-                color={{
-                    backgroundColor: 'var(--cursor-color)'
-                }}
+                
+            <AnimatedCursor
+                color="239, 241, 240"
                 innerSize={8}
                 outerSize={35}
                 innerScale={1}
-                outerScale={1.7}
-                outerAlpha={0}
-                hasBlendMode={true}
-                outerStyle={{
-                    border: '2px solid var(--cursor-color)'
-                }}
+                outerScale={2}
+                outerAlpha={1}
                 innerStyle={{
-                    backgroundColor: 'var(--cursor-color)'
+                backgroundColor: 'var(--cursor-color)',
                 }}
-                /> */}
-       <AnimatedCursor
-        color="239, 241, 240"
-        innerSize={8}
-        outerSize={35}
-        innerScale={0.7}
-        outerScale={2}
-        outerAlpha={1}
-        innerStyle={{
-          backgroundColor: 'var(--cursor-color)',
-        }}
-        outerStyle={{
-          mixBlendMode: 'exclusion',
-        }}
-        trailingSpeed={8}
-      />
+                outerStyle={{
+                mixBlendMode: 'exclusion',
+                }}
+                trailingSpeed={8}
+            />
                 <BrowserRouter>
 
                     <Routes>
