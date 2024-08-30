@@ -31,7 +31,10 @@ export default function Projects(){
 
                     <article className="design dev item-1">
                         <Link to="dailyfy" onClick={handleLinkClick}>
-                            <img className="project-image" src={mockupDailyfy} alt="" />
+                            <div className="project-image-frame">
+                                <img className="project-image" src={mockupDailyfy} alt="" />
+                            </div>
+
                             <div className="project-text">
                                 <div className="project-info">
                                     <p>2024</p>
@@ -45,7 +48,10 @@ export default function Projects(){
 
                     <article className="design item-2">
                         <Link to="miamapp" onClick={handleLinkClick}>
-                            <img className="project-image" src={mockupMiam} alt="Mockup du projet MiamApp" />
+                            <div className="project-image-frame">
+                                <img className="project-image" src={mockupMiam} alt="Mockup du projet MiamApp" />
+                            </div>
+
                             <div className="project-text">
                                 <div className="project-info">
                                     <p>2024</p>
@@ -59,7 +65,10 @@ export default function Projects(){
                     
                     <article className="design dev item-1">
                         <Link to="eliseamar" onClick={handleLinkClick}>
-                            <img className="project-image" src={mockupElise} alt="Mockup du projet Elise Amar" />
+                            <div className="project-image-frame">
+                                <img className="project-image" src={mockupElise} alt="Mockup du projet Elise Amar" />
+                            </div>
+
                             <div className="project-text">
                                 <div className="project-info">
                                     <p>2023</p>
@@ -73,7 +82,10 @@ export default function Projects(){
 
                     <article className="design item-2">
                         <Link to="fgodf" onClick={handleLinkClick}>
-                            <img className="project-image" src={mockupFgodf} alt="" />
+                            <div className="project-image-frame">
+                                <img className="project-image" src={mockupFgodf} alt="" />
+                            </div>
+                            
                             <div className="project-text">
                                 <div className="project-info">
                                     <p>2023</p>

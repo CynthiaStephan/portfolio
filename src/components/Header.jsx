@@ -19,7 +19,7 @@ export default function Header(){
     return(
         <>
             <header>
-                <NavLink className="logo" to="/">Cynthia <br />Stephan</NavLink>
+                <NavLink className="logo" to="/" onClick={handleLinkClick}>Cynthia <br />Stephan</NavLink>
 
                 <a href="mailto: cynthia.stephan@institutsolacroup.com">Contactez-moi</a>
 

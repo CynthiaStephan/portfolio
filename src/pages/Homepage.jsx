@@ -102,7 +102,7 @@ export default function Homepage() {
 
                 <section className="home-presentation">
                     <p>
-                        Actuellement en formation de développeuse web à l'IMTS, je suis à la recherche d'une <span className="bold-text">alternance</span> en tant que <span className="bold-text">développeuse backend</span> à partir de septembre 2024.
+                        Actuellement en formation de développeuse web à l'IMTS, je suis à la recherche d'une <span className="bold-text">alternance</span> en tant que <span className="bold-text">développeuse backend</span> à partir d'octobre 2024.
                     </p>
                     <p>
                         Après des études en design numérique et en gestion de projet, je souhaite explorer de nouvelles opportunités dans le développement web.
@@ -114,16 +114,16 @@ export default function Homepage() {
                     <div>
                         <ul>
                             <li>
-                                <Link to="projets/eliseamar" onClick={handleLinkClick}>
+                                <Link to="projets/dailyfy" onClick={handleLinkClick}>
                                     <div className="project-info">
                                         <p className="project-category">Développement Web / UX|UI Design</p>
-                                        <h3 className="project-name">Elise Amar</h3>
-                                        <p className="project-date">2023</p>
+                                        <h3 className="project-name">Dailyfy</h3>
+                                        <p className="project-date">2024</p>
                                     </div>
                                     <img className="project-arrow" src={arrowProject} alt="ouvrir détail du projet" />
                                 </Link>
                                 <div className="hover-img">
-                                    <img className="img-fluid" src={mockupElise} alt="Mockup du projet Elise Amar" />
+                                    <img className="img-fluid" src={mockupDailyfy} alt="Mockup du projet Dailyfy" />
                                 </div>
                             </li>
 
@@ -142,18 +142,20 @@ export default function Homepage() {
                             </li>
 
                             <li>
-                                <Link to="projets/dailyfy" onClick={handleLinkClick}>
+                                <Link to="projets/eliseamar" onClick={handleLinkClick}>
                                     <div className="project-info">
                                         <p className="project-category">Développement Web / UX|UI Design</p>
-                                        <h3 className="project-name">Dailyfy</h3>
-                                        <p className="project-date">2024</p>
+                                        <h3 className="project-name">Elise Amar</h3>
+                                        <p className="project-date">2023</p>
                                     </div>
                                     <img className="project-arrow" src={arrowProject} alt="ouvrir détail du projet" />
                                 </Link>
                                 <div className="hover-img">
-                                    <img className="img-fluid" src={mockupDailyfy} alt="Mockup du projet Dailyfy" />
+                                    <img className="img-fluid" src={mockupElise} alt="Mockup du projet Elise Amar" />
                                 </div>
                             </li>
+
+        
                         </ul>
                     </div>
 

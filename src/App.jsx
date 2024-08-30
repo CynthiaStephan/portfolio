@@ -9,38 +9,43 @@ import Dailyfy from './content/Dailyfy'
 import Fgodf from './content/Fgodf'
 import { ReactLenis, useLenis } from 'lenis/react'
 import AnimatedCursor from 'react-animated-cursor'
+import MentionsLegales from './pages/mentionsLegales'
 
     function App() {
         const lenis = useLenis(({ scroll }) => {
             // called every scroll
           });
 
+          const isTouchDevice = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
+
           
     return (
         <>
             <ReactLenis root>
-                
-            <AnimatedCursor
-                color="239, 241, 240"
-                innerSize={8}
-                outerSize={35}
-                innerScale={1}
-                outerScale={2}
-                outerAlpha={1}
-                innerStyle={{
-                backgroundColor: 'var(--cursor-color)',
-                }}
-                outerStyle={{
-                mixBlendMode: 'exclusion',
-                }}
-                trailingSpeed={8}
-            />
+            {!isTouchDevice && (
+                <AnimatedCursor
+                    color="239, 241, 240"
+                    innerSize={8}
+                    outerSize={35}
+                    innerScale={1}
+                    outerScale={2}
+                    outerAlpha={1}
+                    innerStyle={{
+                    backgroundColor: 'var(--cursor-color)',
+                    }}
+                    outerStyle={{
+                    mixBlendMode: 'exclusion',
+                    }}
+                    trailingSpeed={8}
+                />
+            )}
                 <BrowserRouter>
 
                     <Routes>
                         <Route element={<Homepage />} path="/" />
                         <Route element={<Projects />} path="projets" />
                         <Route element={<About />} path='apropos' />
+                        <Route element={<MentionsLegales />} path='legal' />
 
 
                         <Route element={<MiamApp />} path='projets/miamapp' />

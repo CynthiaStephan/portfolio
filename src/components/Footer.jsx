@@ -11,7 +11,7 @@ export default function Footer(){
 
             <Link to="https://www.linkedin.com/in/cynthia-stephan/">Linkedin</Link>
 
-            <Link to="#">Mentions légales</Link>
+            <Link to="/legal">Mentions légales</Link>
         </footer>
     )
 }
