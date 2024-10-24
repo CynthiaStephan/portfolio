@@ -25,11 +25,11 @@ import MentionsLegales from './pages/mentionsLegales'
             {!isTouchDevice && (
                 <AnimatedCursor
                     color="239, 241, 240"
-                    innerSize={8}
-                    outerSize={35}
+                    innerSize={6}
+                    outerSize={42}
                     innerScale={1}
                     outerScale={2}
-                    outerAlpha={1}
+                    outerAlpha={0.8}
                     innerStyle={{
                     backgroundColor: 'var(--cursor-color)',
                     }}
@@ -37,6 +37,7 @@ import MentionsLegales from './pages/mentionsLegales'
                     mixBlendMode: 'exclusion',
                     }}
                     trailingSpeed={8}
+                    showSystemCursor={true}
                 />
             )}
                 <BrowserRouter>

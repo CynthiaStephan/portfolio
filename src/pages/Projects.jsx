@@ -6,12 +6,21 @@ import mockupFgodf from "../assets/img/mockup/mockup-fgodf.jpg"
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import { Link } from "react-router-dom";
+import { useEffect } from "react";
 
 
 export default function Projects(){
     const handleLinkClick = () => {
         window.scrollTo(0, 0);
-      };
+    };
+
+    useEffect(() => {
+        import('../../flowmap.js').then((module) => {
+            module.applyFlowmapEffect(); // Appelle la fonction depuis l'export
+        }).catch((err) => console.error("Erreur lors de l'import du module Flowmap :", err));
+    }, []); // Exécute l'effet chaque fois que le composant est monté
+      
+
 
     return(
         <>
@@ -26,12 +35,11 @@ export default function Projects(){
                     <button>Design</button>
                     <button>Développement web</button>
                 </section> */}
-
                 <section className="projects-list">
 
                     <article className="design dev item-1">
                         <Link to="dailyfy" onClick={handleLinkClick}>
-                            <div className="project-image-frame">
+                            <div className="project-image-frame flowmap-img">
                                 <img className="project-image" src={mockupDailyfy} alt="" />
                             </div>
 
@@ -48,7 +56,7 @@ export default function Projects(){
 
                     <article className="design item-2">
                         <Link to="miamapp" onClick={handleLinkClick}>
-                            <div className="project-image-frame">
+                            <div className="project-image-frame flowmap-img">
                                 <img className="project-image" src={mockupMiam} alt="Mockup du projet MiamApp" />
                             </div>
 
@@ -65,7 +73,7 @@ export default function Projects(){
                     
                     <article className="design dev item-1">
                         <Link to="eliseamar" onClick={handleLinkClick}>
-                            <div className="project-image-frame">
+                            <div className="project-image-frame flowmap-img">
                                 <img className="project-image" src={mockupElise} alt="Mockup du projet Elise Amar" />
                             </div>
 
@@ -82,8 +90,8 @@ export default function Projects(){
 
                     <article className="design item-2">
                         <Link to="fgodf" onClick={handleLinkClick}>
-                            <div className="project-image-frame">
-                                <img className="project-image" src={mockupFgodf} alt="" />
+                            <div className="project-image-frame flowmap-img">
+                                <img className="project-image" src={mockupFgodf} alt="Mockup du projet Fondation Grand Orient de France" />
                             </div>
                             
                             <div className="project-text">
