@@ -16,9 +16,9 @@ export default function Projects(){
 
     useEffect(() => {
         import('../../flowmap.js').then((module) => {
-            module.applyFlowmapEffect(); // Appelle la fonction depuis l'export
+            module.applyFlowmapEffect(); 
         }).catch((err) => console.error("Erreur lors de l'import du module Flowmap :", err));
-    }, []); // Exécute l'effet chaque fois que le composant est monté
+    }, []);
       
 
 

@@ -12,7 +12,6 @@ export default function Header(){
     };
 
     const handleLinkClick = () => {
-        console.log('Link clicked');
         window.scrollTo(0, 0);
     };
 

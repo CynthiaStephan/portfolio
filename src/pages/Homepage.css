@@ -157,6 +157,7 @@ section.home-projects ul li {
 
     .homepage .hover-img {
         width: 25vw;
+        z-index: 100;
     }
 
     .homepage ul li{
