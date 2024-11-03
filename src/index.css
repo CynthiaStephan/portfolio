@@ -72,7 +72,7 @@ color: var(--color-font);
 background: var(--color-bg);
 padding: 0 var(--sp-8);
 font-weight: 600;
-overflow-x: hidden;
+overflow: hidden;
 }
 
 h1{
@@ -151,4 +151,18 @@ canvas{
 .project-image-frame{
   position: relative;
   z-index: 2;
+}
+
+/* Gradient background */
+#gradient-canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width:100%;
+  height:100%;
+  --gradient-color-1: #EFF1F0; 
+  --gradient-color-2: #EFF1F0; 
+  --gradient-color-3: #ffa9a4;  
+  --gradient-color-4: #e7dbc1;
 }

@@ -10,6 +10,7 @@ import Fgodf from './content/Fgodf'
 import { ReactLenis } from 'lenis/react'
 import AnimatedCursor from 'react-animated-cursor'
 import MentionsLegales from './pages/mentionsLegales'
+import GradientCanvas from './components/GradientCanvas'
 
     function App() {
         // const lenis = useLenis(({ scroll }) => {
@@ -21,6 +22,7 @@ import MentionsLegales from './pages/mentionsLegales'
           
     return (
         <>
+            <GradientCanvas />
             <ReactLenis root>
             {!isTouchDevice && (
                 <AnimatedCursor
