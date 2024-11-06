@@ -10,19 +10,17 @@ import Fgodf from './content/Fgodf'
 import { ReactLenis } from 'lenis/react'
 import AnimatedCursor from 'react-animated-cursor'
 import MentionsLegales from './pages/mentionsLegales'
-import GradientCanvas from './components/GradientCanvas'
 
     function App() {
         // const lenis = useLenis(({ scroll }) => {
         //     // called every scroll
         //   });
 
-          const isTouchDevice = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
+        const isTouchDevice = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
 
           
     return (
         <>
-            <GradientCanvas />
             <ReactLenis root>
             {!isTouchDevice && (
                 <AnimatedCursor
