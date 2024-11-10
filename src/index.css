@@ -46,6 +46,7 @@
   --sp-120: 7.5rem;
   --sp-124: 7.75rem;
   --sp-128: 8rem;
+  --sp-150: 9.375rem;
 }
 
 @font-face {
@@ -61,7 +62,7 @@
 }
 
 html {
-  --cursor-color: #CECECA;
+  --cursor-color: #1D1D1B;
 }
 
 body{
@@ -70,9 +71,37 @@ box-sizing: border-box;
 text-transform: uppercase;
 color: var(--color-font);
 background: var(--color-bg);
-padding: 0 var(--sp-8);
 font-weight: 600;
 overflow: hidden;
+}
+
+main, header{
+  padding: 0 var(--sp-8);
+  
+}
+
+div.background-columns{
+  position: fixed;
+  top: 0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  z-index: -1;
+  padding: 0 var(--sp-8);
+  gap: 8px;
+}
+
+div.background-columns div.column.desktop{
+  display: none;
+}
+
+div.column{
+  height: 100%;
+  border-left: 1px solid #00000023;
+  border-right: 1px solid #00000023;
 }
 
 h1{
@@ -106,16 +135,22 @@ span.bold-text{
 
 
 @media (min-width: 768px){
-  /* body{
-    padding: 0 var(--sp-52);
-  } */
-  main, header, footer{
+  main, header{
     padding: 0 var(--sp-52);
   }
   
   h1{
     letter-spacing: -6px;
     line-height: 13rem;
+  }
+
+  div.background-columns{
+    padding: 0 var(--sp-52);
+    gap: 32px;
+  }
+
+  div.background-columns div.column.desktop{
+    display: block;
   }
 }
 
@@ -140,8 +175,7 @@ html.lenis, html.lenis body {
   pointer-events: none;
 }
 
-
-/* Gestion effet flowmap */ 
+/* Flowmap effect */
 canvas{
   position: absolute;
   top: 0;

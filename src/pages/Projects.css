@@ -43,6 +43,7 @@ section.projects-list{
 .projects-list h2{
     font-size: var(--fs-lg);
     font-weight: 800;
+    letter-spacing: unset;
 }
 
 .projects-list article p{
@@ -53,6 +54,7 @@ section.projects-list{
 .projects-list article .project-category{
     font-size: var(--fs-base);
     font-weight: 700;
+    text-align: end;
 }
 
 .projects-list article a{
@@ -79,7 +81,7 @@ section.projects-list{
     section.projects-hero p{
         font-size: var(--fs-md);
         width: 70%;
-        padding-left: 35%;
+        padding-left: 34%;
     }
 
     section.projects-hero{
@@ -97,22 +99,15 @@ section.projects-list{
     }
 
     .item-2{
-        margin-top: var(--sp-120);
+        margin-top: 15.625rem;
     }
 
     .item-1{
-        margin-bottom: var(--sp-120);
+        margin-bottom: var(--sp-150);
     }
 
     .projects-page .project-image-frame{
         overflow: hidden;
     }
 
-    /* .projects-page .project-image-frame .project-image{
-        transition: transform 0.6s cubic-bezier(0.33, 1, 0.68, 1);
-    }
-
-    .projects-page .project-image-frame .project-image:hover{
-        transform: scale(1.05);
-    } */
 }

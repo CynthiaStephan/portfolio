@@ -20,5 +20,11 @@
 }
 
 .legal{
-    padding: var(--sp-52) 0;
+    padding: var(--sp-52) var(--sp-8);
+}
+
+@media (min-width: 768px){
+    .legal{
+        padding: var(--sp-52);
+    }
 }

@@ -78,7 +78,7 @@ section.home-projects ul li:last-child{
     font-size: var(--fs-sm);
 }
 
-section.contact-frame{
+/* section.contact-frame{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -89,7 +89,6 @@ section.contact-frame{
 section.contact-frame h2{
     text-align: center;
     word-break: keep-all;
-    /* font-size: var(--fs-xl); */
 }
 
 section.contact-frame a{
@@ -97,7 +96,8 @@ section.contact-frame a{
     font-size: var(--fs-base);
     font-size: var(--fs-md);
     text-align: center;
-}
+    border-bottom: 2px solid var(--color-font);
+} */
 
 section.home-projects ul li {
     position: relative;

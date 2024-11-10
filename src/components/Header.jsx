@@ -13,19 +13,27 @@ export default function Header(){
 
     const handleLinkClick = () => {
         window.scrollTo(0, 0);
+        setIsOpen(false);
     };
 
     return(
         <>
             <header>
-                <NavLink className="logo" to="/" onClick={handleLinkClick}>Cynthia <br />Stephan</NavLink>
+                <div className='background-columns'>
+                    <div className='column'></div>
+                    <div className='column'></div>
+                    <div className='column'></div>
+                    <div className='column'></div>
+                    <div className='column '></div>
+                    <div className='column desktop'></div>
+                </div>
+                <NavLink className="logo" to="/" onClick={handleLinkClick}>Cynthia Stephan</NavLink>
 
-                <a href="mailto: cynthia.stephan@institutsolacroup.com">Contactez-moi</a>
-
-                <a target="blank" href="https://www.linkedin.com/in/cynthia-stephan/">Linkedin</a>
-                
                 <nav>
                     <ul>
+                        <li>
+                            <NavLink to="/" onClick={handleLinkClick}>Accueil,</NavLink>
+                        </li>
                         <li>
                             <NavLink to="/projets" onClick={handleLinkClick}>Projets,</NavLink>
                         </li>
@@ -35,6 +43,13 @@ export default function Header(){
                         
                     </ul>
                 </nav>
+                <div className="nav-contact">
+
+                    <a target="blank" href="https://www.linkedin.com/in/cynthia-stephan/">Linkedin,</a>
+                    <Link to="mailto: cynthia.stephan@institutsolacroup.com">Contactez-moi</Link>
+
+                </div>
+                
 
                 <span className="navbar-toggle" onClick={toggleMenu}>
                     <img className="menu-button" src={menuButton} alt="ouvrir le menu" />

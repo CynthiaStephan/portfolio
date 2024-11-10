@@ -20,6 +20,7 @@ async function applyFlowmapEffect() {
         const gl = renderer.gl; // Récupération du contexte WebGL
         imgElement.appendChild(gl.canvas); // Ajout du canvas au conteneur d'image
 
+        // eslint-disable-next-line no-unused-vars
         let aspect = 1; // Ratio d'aspect initial
         const mouse = new Vec2(-1); // Position initiale de la souris
         const velocity = new Vec2(); // Vitesse initiale de la souris
