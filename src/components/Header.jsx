@@ -60,7 +60,7 @@ export default function Header(){
                 <div className="mobile-nav-overlay">
                     
                     <div className="mobile-open-navbar">
-                        <NavLink className="logo" to="/">Cynthia <br />Stephan</NavLink>
+                        <NavLink className="logo" to="/">Cynthia Stephan</NavLink>
                         <span className="navbar-toggle" onClick={toggleMenu}>
                             <img className="menu-button" src={closeButton} alt="ferme le menu" />
                         </span>
