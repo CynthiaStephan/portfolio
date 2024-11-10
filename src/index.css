@@ -74,10 +74,18 @@ background: var(--color-bg);
 font-weight: 600;
 }
 
+main::before{
+  background-image: url('../public/noise.png');
+  opacity: 0.65;
+  pointer-events: none;
+  animation: noise 1s steps(2) infinite;
+}
+
 main, header{
   padding: 0 var(--sp-8);
   
 }
+
 
 div.background-columns{
   position: fixed;
@@ -94,6 +102,74 @@ div.background-columns{
   pointer-events: none;
 }
 
+/* Background nosie */
+
+body::before, header::before{
+  content: "";
+  position: fixed;
+  left: -10rem;
+  top: -10rem;
+  width: calc(100% + 20rem);
+  height: calc(100% + 20rem);
+  background-image: url(/noise.png);
+  opacity: 0.65;
+  pointer-events: none;
+  animation: noise 1s steps(2) infinite;
+  z-index: -10;
+}
+
+@-webkit-keyframes noise {
+  to {
+    transform: translate3d(-7rem, 0, 0);
+  }
+}
+
+@keyframes noise {
+  0% {
+    transform: translate3d(0, 9rem, 0);
+  }
+
+  10% {
+    transform: translate3d(-1rem, -4rem, 0);
+  }
+
+  20% {
+    transform: translate3d(-8rem, 2rem, 0);
+  }
+
+  30% {
+    transform: translate3d(9rem, -9rem, 0);
+  }
+
+  40% {
+    transform: translate3d(-2rem, 7rem, 0);
+  }
+
+  50% {
+    transform: translate3d(-9rem, -4rem, 0);
+  }
+
+  60% {
+    transform: translate3d(2rem, 6rem, 0);
+  }
+
+  70% {
+    transform: translate3d(7rem, -8rem, 0);
+  }
+
+  80% {
+    transform: translate3d(-9rem, 1rem, 0);
+  }
+
+  90% {
+    transform: translate3d(6rem, -5rem, 0);
+  }
+
+  to {
+    transform: translate3d(-7rem, 0, 0);
+  }
+}
+
 div.background-columns div.column.desktop{
   display: none;
 }
@@ -102,6 +178,7 @@ div.column{
   height: 100%;
   border-left: 1px solid #00000023;
   border-right: 1px solid #00000023;
+  
 }
 
 h1{
