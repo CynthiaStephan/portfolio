@@ -98,7 +98,7 @@ div.background-columns{
   flex-wrap: wrap;
   z-index: -1;
   padding: 0 var(--sp-8);
-  gap: 8px;
+  gap: var(--sp-8);
   pointer-events: none;
 }
 
@@ -223,7 +223,7 @@ span.bold-text{
 
   div.background-columns{
     padding: 0 var(--sp-52);
-    gap: 32px;
+    gap: var(--sp-32);
   }
 
   div.background-columns div.column.desktop{

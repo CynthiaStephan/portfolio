@@ -54,7 +54,7 @@
 
 .single-project .project-presentation img{
     display: block;
-    max-width: 100%;
+    max-width: calc(100% - 1px);
 }
 
 
@@ -83,7 +83,7 @@
     .single-project .project-presentation .showcase-images{
         display: grid;
         grid-template-columns: 1fr 1fr;
-        gap: var(--sp-56);
+        gap: var(--sp-56) var(--sp-32);
     }
 
     .single-project .img-long{
