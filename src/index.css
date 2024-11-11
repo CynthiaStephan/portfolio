@@ -72,6 +72,7 @@ text-transform: uppercase;
 color: var(--color-font);
 background: var(--color-bg);
 font-weight: 600;
+overflow-x: hidden;
 }
 
 main::before{

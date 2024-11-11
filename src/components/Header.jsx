@@ -46,7 +46,7 @@ export default function Header(){
                 <div className="nav-contact">
 
                     <a target="blank" href="https://www.linkedin.com/in/cynthia-stephan/">Linkedin,</a>
-                    <Link to="mailto: cynthia.stephan@institutsolacroup.com">Contactez-moi</Link>
+                    <Link to="mailto: cynthia.stephan@institutsolacroup.com">EMail</Link>
 
                 </div>
                 
@@ -76,7 +76,7 @@ export default function Header(){
                             </li>
 
                             <li className="mobile-nav-link">
-                                <Link to="mailto: cynthia.stephan@institutsolacroup.com">Contactez-moi</Link>
+                                <Link to="mailto: cynthia.stephan@institutsolacroup.com">Email</Link>
                             </li>
                             <li className="mobile-nav-link">
                                 <Link target="blank" to="https://www.linkedin.com/in/cynthia-stephan/">Linkedin</Link>
