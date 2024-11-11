@@ -9,6 +9,7 @@ import Dailyfy from './content/Dailyfy'
 import Fgodf from './content/Fgodf'
 import { ReactLenis, useLenis } from 'lenis/react'
 import MentionsLegales from './pages/mentionsLegales'
+import NotFound from './pages/NotFound'
 
     function App() {
          const lenis = useLenis(({ scroll }) => {
@@ -41,9 +42,10 @@ import MentionsLegales from './pages/mentionsLegales'
             <BrowserRouter>
                 <Routes>
                     <Route element={<Homepage />} path="/" />
-                    <Route element={<Projects />} path="/projets" />
-                    <Route element={<About />} path='/apropos' />
-                    <Route element={<MentionsLegales />} path='/legal' />
+                    <Route element={<Projects />} path="projets" />
+                    <Route element={<About />} path='apropos' />
+                    <Route element={<MentionsLegales />} path='legal' />
+                    <Route element={<NotFound />} path='*' />
 
 
                     <Route element={<MiamApp />} path='/projets/miamapp' />

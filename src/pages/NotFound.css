@@ -1,0 +1,40 @@
+main.not-found{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: var(--sp-32);
+
+    & h1{
+        font-size: 10rem;
+        line-height: 120%;
+    }
+
+    & p{
+        font-size: var(--fs-md);
+        line-height: 120%;
+    }
+
+    & a{
+        text-decoration: underline;
+        font-weight: 700;
+        font-size: var(--fs-md);
+    }
+}
+
+@media (min-width: 768px){
+    main.not-found{
+        gap: var(--sp-24);
+
+        & h1{
+            font-size: 26.25rem;
+        }
+        
+        & p{
+            margin-left: 17%;
+            margin-right: 25%;
+            margin-bottom: var(--sp-24);
+        }
+    } 
+    
+}
