@@ -44,6 +44,7 @@ section.about-text p{
         flex-direction: row-reverse;
         justify-content: space-between;
         gap: 32px;
+        margin-bottom: var(--sp-92);
     }
 
     section.about-hero{

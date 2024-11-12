@@ -102,10 +102,10 @@ export default function Homepage() {
 
                 <section className="home-presentation">
                     <p>
-                        Actuellement en formation de développeuse web à l'IMTS, je suis à la recherche d'une <span className="bold-text">alternance</span> en tant que <span className="bold-text">développeuse backend</span> à partir d'octobre 2024.
+                        Actuellement en formation Développeuse Back-End à l'IMTS, je suis à la recherche d'une <span className="bold-text">alternance</span> dès maintenant. 
                     </p>
                     <p>
-                        Après des études en design numérique et en gestion de projet, je souhaite explorer de nouvelles opportunités dans le développement web.
+                        Après un parcours en design numérique, j'ai évolué vers le développement frontend, et aujourd'hui je me tourne vers le backend pour concevoir des solutions complètes et performantes.
                     </p>
                 </section>
 

@@ -12,7 +12,7 @@ export default function About(){
             <main className="about">
                 <section className="about-hero">
                     <h1>A propos</h1>
-                    <p>Développeuse front-end passionnée par la fusion de la technologie et du design.</p>
+                    <p>Développeuse Fullstack et & UX/UI Designer curieuse</p>
 
                 </section>
                 <div className="frame">
@@ -23,15 +23,15 @@ export default function About(){
                     
                     <section className="about-text">
                         <p>
-                            Passionnée par l'informatique et le design depuis mon enfance, j'ai choisi de me spécialiser dans le développement web et le design UI/UX pour allier créativité et technicité. En tant que développeuse web front-end et designer UI/UX, je m'efforce de créer des expériences utilisateur harmonieuses et engageantes. 
-                            Au fil de mon parcours, j'ai eu la chance de participer à divers projets qui m'ont permis de développer à la fois mes compétences en design et en développement front-end. Ces expériences m'ont confrontée à des défis techniques et créatifs, enrichissant ainsi mon approche et ma compréhension de la création d'interfaces utilisateur et d'optimisation de l'expérience utilisateur.
+                            Curieuse et passionnée par les technologies web, j'ai choisi la voie du développement fullstack pour explorer toutes les dimensions de la création digitale. Mon parcours en développement web est né de l'envie d'allier mon goût pour le design et ma passion pour la logique du code, afin de créer des expériences utilisateur à la fois esthétiques et performantes.
                         </p>
                         <p>
-                            Mon approche du design est avant tout pragmatique et centrée sur l'utilisateur. Je m'efforce de rendre chaque parcours utilisateur aussi fluide et accessible que possible. J'accorde une grande importance à la veille technologique et au design, consacrant plusieurs heures par semaine à me tenir informée des dernières tendances pour toujours proposer des solutions à la pointe de la technologie.
+                            Spécialisée dans les technologies front et back, j'aspire à concevoir des applications qui répondent aux besoins des utilisateurs tout en étant techniquement robustes. J'accorde une attention particulière à l'interface utilisateur, au parcours de navigation, et à la structure backend qui donne vie à chaque fonctionnalité. Le fullstack me permet de maîtriser l'ensemble de ces aspects pour offrir une expérience fluide et optimisée.
                         </p>
                         <p>
-                            J'adopte une approche méthodique en utilisant le Design Thinking pour analyser et résoudre les problèmes. J'apprécie particulièrement l'étape de la veille concurrentielle et l'analyse approfondie des besoins utilisateurs. Mon objectif est de travailler en étroite collaboration avec les utilisateurs pour comprendre leurs besoins et y répondre de manière innovante et efficace.
+                            En veille constante sur les tendances technologiques et les méthodes de design, je cherche toujours à enrichir mon approche et à améliorer mes compétences pour créer des solutions modernes, performantes et accessibles. Je vois chaque projet comme une opportunité de croissance et d'apprentissage, et je suis motivée par le défi de faire évoluer mes compétences pour répondre aux attentes des utilisateurs.
                         </p>
+     
 
                     </section>
                 </div>
