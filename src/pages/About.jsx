@@ -12,7 +12,7 @@ export default function About(){
             <main className="about">
                 <section className="about-hero">
                     <h1>A propos</h1>
-                    <p>Développeuse Fullstack et & UX/UI Designer curieuse</p>
+                    <p>Développeuse Fullstack & Designer</p>
 
                 </section>
                 <div className="frame">

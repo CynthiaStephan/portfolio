@@ -95,8 +95,8 @@ export default function Homepage() {
                 <section className="home-hero">
                     <h1>Cynthia Stephan</h1>
                     <div>
-                        <h3 className="profession">Designer UI/UX & <br /> Développeuse Frontend à Dinan</h3>
-                        <p className="school">En formation à l’IMTS</p>
+                        <h3 className="profession">Développeuse FullStack & <br /> Designer UI/UX à Dinan</h3>
+                        <p className="school">En formation à l'IMTS</p>
                     </div>
                 </section>
 
