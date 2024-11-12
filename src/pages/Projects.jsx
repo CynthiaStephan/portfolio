@@ -3,8 +3,6 @@ import mockupMiam from "../assets/img/mockup/mockup-miam.jpg";
 import mockupElise from "../assets/img/mockup/mockup-elise.jpg"
 import mockupDailyfy from "../assets/img/mockup/mockup-dailyfy.jpg"
 import mockupFgodf from "../assets/img/mockup/mockup-fgodf.jpg"
-import Header from "../components/Header";
-import Footer from "../components/Footer";
 import { Link } from "react-router-dom";
 import { useEffect, useLayoutEffect, useRef } from "react";
 import gsap from "gsap";
@@ -58,17 +56,13 @@ export default function Projects(){
 
     return(
         <>
-            <Header />
-            <main className="projects-page">
+            <section className="projects-page" id="project">
+
                 <section className="projects-hero">
-                    <h1>Projets</h1>
+                    <h2>Projets</h2>
                     <p>Différents projets réalisées dans le cadre de ma formation</p>
                 </section>
 
-                {/* <section className="projects-filter">
-                    <button>Design</button>
-                    <button>Développement web</button>
-                </section> */}
                 <section ref={container} className="projects-list">
 
                     <article ref={firstimg} className="design dev item-1">
@@ -80,7 +74,7 @@ export default function Projects(){
                             <div className="project-text">
                                 <div className="project-info">
                                     <p>2024</p>
-                                    <h2>Dailyfy</h2>
+                                    <h3>Dailyfy</h3>
                                     <p className="project-tool">Javascript, Php, css, Figma</p>
                                 </div>
                                 <p className="project-category">Design, Developpement</p>
@@ -97,7 +91,7 @@ export default function Projects(){
                             <div className="project-text">
                                 <div className="project-info">
                                     <p>2024</p>
-                                    <h2>MiamApp</h2>
+                                    <h3>MiamApp</h3>
                                     <p className="project-tool">Figma</p>
                                 </div>
                                 <p className="project-category">Design</p>
@@ -114,7 +108,7 @@ export default function Projects(){
                             <div className="project-text">
                                 <div className="project-info">
                                     <p>2023</p>
-                                    <h2>Elise Amar</h2>
+                                    <h3>Elise Amar</h3>
                                     <p className="project-tool">Figma, HTML, CSS</p>
                                 </div>
                                 <p className="project-category">Design, Developpement</p>
@@ -131,7 +125,7 @@ export default function Projects(){
                             <div className="project-text">
                                 <div className="project-info">
                                     <p>2023</p>
-                                    <h2>Fondation grand orient de france</h2>
+                                    <h3>Fondation grand orient de france</h3>
                                     <p className="project-tool">Figma</p>
                                 </div>
                                 <p className="project-category">Design</p>
@@ -140,9 +134,8 @@ export default function Projects(){
                     </article>
 
                 </section>
-            </main>
+            </section>
 
-            <Footer />
         </>
     )
 }

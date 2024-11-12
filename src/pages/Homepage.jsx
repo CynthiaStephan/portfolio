@@ -9,6 +9,8 @@ import Footer from "../components/Footer";
 import mockupElise from "../assets/img/mockup/mockup-elise.jpg";
 import mockupMiam from "../assets/img/mockup/mockup-miam.jpg";
 import mockupDailyfy from "../assets/img/mockup/mockup-dailyfy.jpg";
+import Projects from './Projects';
+import About from './About';
 
 export default function Homepage() {
     const handleLinkClick = () => {
@@ -95,7 +97,7 @@ export default function Homepage() {
                 <section className="home-hero">
                     <h1>Cynthia Stephan</h1>
                     <div>
-                        <h3 className="profession">Développeuse FullStack & <br /> Designer UI/UX à Dinan</h3>
+                        <h3 className="profession">Développeuse FullStack &<br /> Designer UI/UX à Dinan</h3>
                         <p className="school">En formation à l'IMTS</p>
                     </div>
                 </section>
@@ -104,12 +106,12 @@ export default function Homepage() {
                     <p>
                         Actuellement en formation Développeuse Back-End à l'IMTS, je suis à la recherche d'une <span className="bold-text">alternance</span> dès maintenant. 
                     </p>
-                    <p>
+                    {/* <p>
                         Après un parcours en design numérique, j'ai évolué vers le développement frontend, et aujourd'hui je me tourne vers le backend pour concevoir des solutions complètes et performantes.
-                    </p>
+                    </p> */}
                 </section>
 
-                <section className="home-projects">
+                {/* <section className="home-projects">
                     <h2>Projets</h2>
                     <div>
                         <ul>
@@ -162,7 +164,10 @@ export default function Homepage() {
                     <div className="home-more-projects">
                         <Link to="/projets" onClick={handleLinkClick}>Plus de projets →</Link>
                     </div>
-                </section>
+                </section> */}
+
+                <Projects />
+                <About />
 
             </main>
 

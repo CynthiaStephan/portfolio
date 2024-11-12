@@ -189,7 +189,7 @@ h1{
 }
 
 h2{
-  font-size: var(--fs-xxl);
+  font-size: var(--fs-xxxl);
   font-weight: 900;
   letter-spacing: -3px;
 }
@@ -263,7 +263,8 @@ canvas{
   z-index: 1;
 }
 
-.project-image-frame{
+.flowmap-img{
   position: relative;
   z-index: 2;
 }
+

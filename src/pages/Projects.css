@@ -39,8 +39,11 @@ section.projects-list{
 .projects-list{
     padding: var(--sp-56) 0;
 }
+.projects-page h2{
+    text-align: end;
+}
 
-.projects-list h2{
+.projects-list h3{
     font-size: var(--fs-lg);
     font-weight: 800;
     letter-spacing: unset;
@@ -86,7 +89,8 @@ section.projects-list{
 
     section.projects-hero{
         gap: var(--sp-92);
-        padding: var(--sp-56) 0;
+        padding-bottom: var(--sp-56);
+        padding-top: var(--sp-120);
     }
 
     section.projects-filter{
@@ -99,7 +103,7 @@ section.projects-list{
     }
 
     .item-2{
-        margin-top: 15.625rem;
+        margin-top: var(--sp-150);
     }
 
     .item-1{
@@ -108,6 +112,10 @@ section.projects-list{
 
     .projects-page .project-image-frame{
         overflow: hidden;
+    }
+
+    .projects-list{
+        padding: var(--sp-72) 0;
     }
 
 }

@@ -11,8 +11,8 @@ section.home-hero{
 }
 
 .home-hero p.school{
-    font-size: var(--fs-base);
-    font-weight: 800;
+    font-size: var(--fs-md);
+    font-weight: 700;
     text-align: end;
 }
 
@@ -77,27 +77,6 @@ section.home-projects ul li:last-child{
 .homepage div.project-info p{
     font-size: var(--fs-sm);
 }
-
-/* section.contact-frame{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: var(--sp-32);
-    padding-bottom: var(--sp-56);
-}
-
-section.contact-frame h2{
-    text-align: center;
-    word-break: keep-all;
-}
-
-section.contact-frame a{
-    color: var(--color-font);
-    font-size: var(--fs-base);
-    font-size: var(--fs-md);
-    text-align: center;
-    border-bottom: 2px solid var(--color-font);
-} */
 
 section.home-projects ul li {
     position: relative;

@@ -6,16 +6,16 @@ section.about-hero{
 }
 
 section.about-hero p{
-padding-left: 30%;
+padding-left: 21%;
 }
 
-main.about div.frame{
+section.about div.frame{
     display: flex;
     flex-direction: column;
     gap: var(--sp-52);
 }
 
-main.about .photo-container img{
+section.about .photo-container img{
     display: block;
     padding-left: 10%;
     width: 100%;
@@ -39,7 +39,7 @@ section.about-text p{
 
 @media (min-width: 768px){
 
-    main.about div.frame{
+    section.about div.frame{
         display: flex;
         flex-direction: row-reverse;
         justify-content: space-between;
@@ -54,10 +54,10 @@ section.about-text p{
     section.about-hero p{
         font-size: var(--fs-md);
         width: 80%;
-        padding-left: 34%;
+        padding-left: 17%;
     }
 
-    main.about div.frame img{
+    section.about div.frame img{
         display: block;
         width: 100%;
         object-fit: cover;

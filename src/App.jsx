@@ -7,14 +7,14 @@ import About from './pages/About'
 import EliseAmar from './content/EliseAmar'
 import Dailyfy from './content/Dailyfy'
 import Fgodf from './content/Fgodf'
-import { ReactLenis, useLenis } from 'lenis/react'
+import { ReactLenis } from 'lenis/react'
 import MentionsLegales from './pages/mentionsLegales'
 import NotFound from './pages/NotFound'
 
     function App() {
-         const lenis = useLenis(({ scroll }) => {
-    // called every scroll
-  })
+        // const lenis = useLenis(({ scroll }) => {
+        // // called every scroll
+        // })
 
 
           
