@@ -1,9 +1,9 @@
 .legal h1 {
-    font-size: var(--fs-xxl);
+    font-size: var(--fs-xl);
 }
 
 .legal h2 {
-    font-size: var(--fs-xl);
+    font-size: var(--fs-lg);
     letter-spacing: initial;
 }
 
