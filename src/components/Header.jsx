@@ -5,15 +5,11 @@ import menuButton from "../assets/img/menu-button.svg"
 import closeButton from "../assets/img/close-button.svg"
 
 export default function Header(){
+
     const [isOpen, setIsOpen] = useState(false);
   
     const toggleMenu = () => {
       setIsOpen(!isOpen);
-    };
-
-    const handleLinkClick = () => {
-        window.scrollTo(0, 0);
-        setIsOpen(false);
     };
 
     return(
@@ -27,18 +23,18 @@ export default function Header(){
                     <div className='column '></div>
                     <div className='column desktop'></div>
                 </div>
-                <NavLink className="logo" to="/" onClick={handleLinkClick}>Cynthia Stephan</NavLink>
+                <a className="logo" href="/" >Cynthia Stephan</a>
 
                 <nav>
                     <ul>
                         <li>
-                            <NavLink to="/" onClick={handleLinkClick}>Accueil,</NavLink>
+                            <a href="/#top">Accueil,</a>
                         </li>
                         <li>
-                            <NavLink to="/projets" onClick={handleLinkClick}>Projets,</NavLink>
+                            <a href="/#project">Projets,</a>
                         </li>
                         <li>
-                            <NavLink to="/apropos" onClick={handleLinkClick}>A propos</NavLink>
+                            <a href="/#about">A propos</a>
                         </li>
                         
                     </ul>
@@ -69,17 +65,20 @@ export default function Header(){
                     <nav className="mobile-nav" role="Navigation Mobile">
                         <ul>
                             <li>
-                                <NavLink to="/projets" onClick={handleLinkClick}>Projets</NavLink>
+                                <a href="/#top" onClick={toggleMenu}>Accueil,</a>
                             </li>
                             <li>
-                                <NavLink to="/apropos" onClick={handleLinkClick}>A propos</NavLink>
+                                <a href="/#project" onClick={toggleMenu}>Projets,</a>
+                            </li>
+                            <li>
+                                <a href="/#about" onClick={toggleMenu}>A propos</a>
                             </li>
 
-                            <li className="mobile-nav-link">
-                                <Link to="mailto: cynthia.stephan@institutsolacroup.com">Email</Link>
+                            <li className="mobile-nav-link" >
+                                <Link to="mailto: cynthia.stephan@institutsolacroup.com" onClick={toggleMenu}>Email</Link>
                             </li>
                             <li className="mobile-nav-link">
-                                <Link target="blank" to="https://www.linkedin.com/in/cynthia-stephan/">Linkedin</Link>
+                                <Link target="blank" to="https://www.linkedin.com/in/cynthia-stephan/" onClick={toggleMenu}>Linkedin</Link>
                             </li>
                         </ul>
                     </nav>

@@ -7,28 +7,16 @@ import About from './pages/About'
 import EliseAmar from './content/EliseAmar'
 import Dailyfy from './content/Dailyfy'
 import Fgodf from './content/Fgodf'
-import { ReactLenis } from 'lenis/react'
 import MentionsLegales from './pages/mentionsLegales'
 import NotFound from './pages/NotFound'
+import useSmoothScroll from './assets/UseSmothScroll'
 
-    function App() {
-        // const lenis = useLenis(({ scroll }) => {
-        // // called every scroll
-        // })
+function App() {
 
+    useSmoothScroll()
 
-          
     return (
-
-        <ReactLenis
-            root
-            options={{
-            autoRaf: true,
-            smoothTouch: true,
-            direction: "vertical", // Spécifie le sens du défilement
-            gestureDirection: "vertical", // Précise le geste pour le défilement tactile
-            }}
-        >
+        <>
             
             <div className='background-columns'>
                 <div className='column'></div>
@@ -48,18 +36,16 @@ import NotFound from './pages/NotFound'
                     <Route element={<NotFound />} path='*' />
 
 
-                    <Route element={<MiamApp />} path='/projets/miamapp' />
-                    <Route element={<EliseAmar />} path='/projets/eliseamar' />
-                    <Route element={<Dailyfy />} path='/projets/dailyfy' />
-                    <Route element={<Fgodf />} path='/projets/fgodf' />
+                    <Route element={<MiamApp />} path='/miamapp' />
+                    <Route element={<EliseAmar />} path='/eliseamar' />
+                    <Route element={<Dailyfy />} path='/dailyfy' />
+                    <Route element={<Fgodf />} path='/fgodf' />
                     
                 </Routes>
             </BrowserRouter>
 
-        </ReactLenis>
-
-
+        </>
     )
-    }
+}
 
-    export default App
+    export default App;

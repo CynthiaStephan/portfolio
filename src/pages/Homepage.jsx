@@ -93,7 +93,7 @@ export default function Homepage() {
     return (
         <>
             <Header />
-            <main className="homepage">
+            <main id='top' className="homepage">
                 <section className="home-hero">
                     <h1>Cynthia Stephan</h1>
                     <div>
@@ -167,7 +167,13 @@ export default function Homepage() {
                 </section> */}
 
                 <Projects />
+                
                 <About />
+                
+                <section className="contact-frame">
+                    <h2>Me contacter</h2>
+                    <a href="mailto:cynthia.stephan@institutsolacroup.com">Cynthia.stephan@<wbr/>institutsolacroup.com</a>
+                </section>
 
             </main>
 
