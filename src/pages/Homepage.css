@@ -101,6 +101,27 @@ section.home-projects ul li {
     box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
 }
 
+section.contact-frame{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--sp-32);
+    padding-bottom: var(--sp-56);
+}
+
+section.contact-frame h2{
+    text-align: center;
+    word-break: keep-all;
+    font-size: var(--fs-xl);
+}
+
+section.contact-frame a{
+    color: var(--color-font);
+    font-size: var(--fs-md);
+    text-align: center;
+    text-decoration: underline;
+}
+
 @media (min-width: 768px){
     section.home-presentation{
         max-width: 1000px
@@ -145,6 +166,13 @@ section.home-projects ul li {
 
     .homepage ul li:hover{
         padding: var(--sp-32) 0;
+    }
+
+    section.contact-frame h2{
+        font-size: var(--fs-xxl);
+    }
+    section.contact-frame{
+        padding-top: var(--sp-120);
     }
 
 

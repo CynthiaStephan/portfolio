@@ -55,7 +55,7 @@ export default function Fgodf(){
                             Lors de ce stage, j'ai participé à la refonte du site web d'une fondation dans le cadre de ma formation Prépa Num. J'ai contribué à la création des maquettes fonctionnelles et à la définition de l'arborescence du site pour préparer un cahier des charges destiné à une agence web.
                         </p>
                         <p>
-                            <span className="bold-text">Contributions : </span><br />
+                            <span className="bold-text upper">Contributions : </span><br />
                                 Maquettes fonctionnelles : Conception de maquettes pour mobile et desktop, visant à optimiser l'ergonomie et l'expérience utilisateur. <br />
                                 Arborescence du site : Structuration logique des contenus pour assurer une navigation fluide et intuitive.</p>
                     </div>

@@ -171,7 +171,7 @@ export default function Homepage() {
                 <About />
                 
                 <section className="contact-frame">
-                    <h2>Me contacter</h2>
+                    <h2>Contactez-moi</h2>
                     <a href="mailto:cynthia.stephan@institutsolacroup.com">Cynthia.stephan@<wbr/>institutsolacroup.com</a>
                 </section>
 

@@ -66,7 +66,12 @@
 
 .single-project .project-presentation .context p{
     font-weight: 500;
+    text-transform: none;
 }
+.single-project .project-presentation .context p span.upper{
+    text-transform: uppercase;
+}
+
 
 
 

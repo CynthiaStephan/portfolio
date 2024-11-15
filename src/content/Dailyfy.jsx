@@ -46,7 +46,7 @@ export default function Dailyfy(){
                     <div className="context">
                         <h2>Contexte</h2>
                         <p>
-                            <span className="bold-text">Stage chez Click&Digital - Agence de Communication Web à Saint-Malo</span>
+                            <span className="bold-text upper">Stage chez Click&Digital - Agence de Communication Web à Saint-Malo</span>
                         </p>
                         <p>
                             J’ai effectué mon stage chez Click&Digital, une agence dirigée par Antoine Sebille, spécialisée dans la communication numérique. L'agence accompagne les entreprises dans leur stratégie en ligne, incluant la création de sites web, les stratégies SEO/SEA, la gestion des réseaux sociaux et la création d'identités visuelles.  

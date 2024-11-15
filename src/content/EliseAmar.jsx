@@ -50,7 +50,7 @@ export default function EliseAmar(){
                     <div className="context">
                         <h2>Contexte</h2>
                         <p>
-                            <span className="bold-text">Projet : Site Vitrine pour Elise Amar, Psychologue à Dinard et Saint-Malo</span>
+                            <span className="bold-text upper">Projet : Site Vitrine pour Elise Amar, Psychologue à Dinard et Saint-Malo</span>
                         </p>
                         <p>
                             Elise Amar, psychologue spécialisée en thérapies familiales, a exprimé le besoin d'un site internet vitrine pour accroître sa visibilité en ligne et présenter ses services. Le cahier des charges comprenait la définition des codes couleurs, du logo, de l'arborescence, du contenu texte, ainsi que des fonctionnalités requises.

@@ -50,17 +50,17 @@ export default function MiamApp(){
                     <div className="context">
                         <h2>Contexte</h2>
                         <p>
-                            <span className="bold-text">Projet : Refonte de MiamApp - Application de Gestion des Réservations de Cantine</span>
+                            <span className="bold-text upper">Projet : Refonte de MiamApp - Application de Gestion des Réservations de Cantine</span>
                         </p>
                         <p>
                             MiamApp a été développé pour répondre à la nécessité de réduire le gaspillage alimentaire dans les cantines, conformément aux directives gouvernementales. Initialement lancé en novembre 2023, l'outil visait à remplacer le suivi papier des réservations par une solution numérique adaptée aux besoins spécifiques de l'IMTS.
                         </p>
                         <p>
-                            <span className="bold-text">Objectifs de la refonte :</span> <br />
+                            <span className="bold-text upper">Objectifs de la refonte :</span> <br />
                             Améliorer l'expérience utilisateur et résoudre les problèmes identifiés, tels que les difficultés d'inscription, le manque de contrôle administratif, et les interfaces peu lisibles. <br /> La version 2 a été conçue pour centraliser les interactions entre élèves, administration et cuisine.
                         </p>
                         <p>
-                            <span className="bold-text">Actions et Solutions :</span> <br />
+                            <span className="bold-text upper">Actions et Solutions :</span> <br />
                             UX/UI Design : Réalisation d'une interface moderne et épurée en utilisant la Charte graphique de l'IMTS et création d'un nouveau logo. La librairie Fluent 2 a été intégrée pour accélérer le développement et assurer une cohérence visuelle. <br />
                             Améliorations fonctionnelles : Révision du processus d'ajout d'ingrédients pour éviter les doublons, avec une nouvelle interface de saisie et une fonctionnalité d'ajout améliorée.
                         </p>

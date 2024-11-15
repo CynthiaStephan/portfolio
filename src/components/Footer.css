@@ -15,28 +15,6 @@ footer .logo-footer{
     font-weight: 800;
 }
 
-section.contact-frame{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: var(--sp-32);
-    padding-bottom: var(--sp-56);
-}
-
-section.contact-frame h2{
-    text-align: center;
-    word-break: keep-all;
-    font-size: var(--fs-xxl);
-}
-
-section.contact-frame a{
-    color: var(--color-font);
-    font-size: var(--fs-base);
-    font-size: var(--fs-md);
-    text-align: center;
-    text-decoration: underline;
-}
-
 footer div.footer-socials{
     display: flex;
     flex-direction: column;
@@ -46,13 +24,5 @@ footer div.footer-socials{
 @media (min-width: 768px){
     footer{
         padding: var(--sp-52);
-    } 
-    section.contact-frame h2{
-        font-size: var(--fs-xxl);
     }
-    section.contact-frame{
-        padding-top: var(--sp-120);
-    }
-
-
 }
