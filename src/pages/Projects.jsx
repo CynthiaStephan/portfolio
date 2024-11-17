@@ -19,9 +19,6 @@ export default function Projects(){
     const fourthimg = useRef(null);
     const mm = gsap.matchMedia();
 
-    const handleLinkClick = () => {
-        window.scrollTo(0, 0);
-    };
     // Import the flowmap effect
     useEffect(() => {
         import('../../flowmap.js').then((module) => {
@@ -60,13 +57,13 @@ export default function Projects(){
 
                 <section className="projects-hero">
                     <h2>Projets</h2>
-                    <p>Différents projets réalisées dans le cadre de ma formation</p>
+                    <p className="balance">Différents projets réalisées dans le cadre de ma formation</p>
                 </section>
 
                 <section ref={container} className="projects-list">
 
                     <article ref={firstimg} className="design dev item-1">
-                        <Link to="dailyfy" onClick={handleLinkClick}>
+                        <a href="dailyfy">
                             <div className="project-image-frame flowmap-img">
                                 <img className="project-image" src={mockupDailyfy} alt="" />
                             </div>
@@ -79,11 +76,11 @@ export default function Projects(){
                                 </div>
                                 <p className="project-category">Design, Developpement</p>
                             </div>
-                        </Link>
+                        </a>
                     </article>
 
                     <article ref={secondimg} className="design item-2">
-                        <Link to="miamapp" onClick={handleLinkClick}>
+                        <a href="miamapp">
                             <div className="project-image-frame flowmap-img">
                                 <img className="project-image" src={mockupMiam} alt="Mockup du projet MiamApp" />
                             </div>
@@ -96,11 +93,11 @@ export default function Projects(){
                                 </div>
                                 <p className="project-category">Design</p>
                             </div>
-                        </Link>
+                        </a>
                     </article>
                     
                     <article ref={thirdimg} className="design dev item-1">
-                        <Link to="eliseamar" onClick={handleLinkClick}>
+                        <a href="eliseamar">
                             <div className="project-image-frame flowmap-img">
                                 <img className="project-image" src={mockupElise} alt="Mockup du projet Elise Amar" />
                             </div>
@@ -113,11 +110,11 @@ export default function Projects(){
                                 </div>
                                 <p className="project-category">Design, Developpement</p>
                             </div>
-                        </Link>
+                        </a>
                     </article>
 
                     <article ref={fourthimg} className="design item-2">
-                        <Link to="fgodf" onClick={handleLinkClick}>
+                        <a href="fgodf">
                             <div className="project-image-frame flowmap-img">
                                 <img className="project-image" src={mockupFgodf} alt="Mockup du projet Fondation Grand Orient de France" />
                             </div>
@@ -130,7 +127,7 @@ export default function Projects(){
                                 </div>
                                 <p className="project-category">Design</p>
                             </div>
-                        </Link>
+                        </a>
                     </article>
 
                 </section>

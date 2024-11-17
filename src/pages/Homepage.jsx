@@ -103,7 +103,7 @@ export default function Homepage() {
                 </section>
 
                 <section className="home-presentation">
-                    <p>
+                    <p className='balance'>
                         Actuellement en formation Développeuse Back-End à l'IMTS, je suis à la recherche d'une <span className="bold-text">alternance</span> dès maintenant. 
                     </p>
                     {/* <p>
