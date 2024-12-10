@@ -48,23 +48,47 @@ export default function EliseAmar(){
                 </section>
 
                 <section className="project-presentation">
-                    <div className="context">
+                    <div className="context case-study">
                         <h2>Contexte</h2>
                         <p>
                             <span className="bold-text upper">Projet : Site Vitrine pour Elise Amar, Psychologue à Dinard et Saint-Malo</span>
                         </p>
                         <p>
-                            Elise Amar, psychologue spécialisée en thérapies familiales, a exprimé le besoin d'un site internet vitrine pour accroître sa visibilité en ligne et présenter ses services. Le cahier des charges comprenait la définition des codes couleurs, du logo, de l'arborescence, du contenu texte, ainsi que des fonctionnalités requises.
+                            Elise Amar, psychologue spécialisée en thérapies familiales, souhaitait renforcer sa présence en ligne pour mieux faire connaître ses services. L'objectif principal était de créer un site internet vitrine qui mette en avant l'atmosphère apaisante et professionnelle de son cabinet.
                         </p>
                         <p>
-                            Le site devait refléter un positionnement clair : un cabinet familial, rassurant et ouvert, utilisant des teintes bleues, vertes et pastel pour créer une atmosphère calme et propice à l'écoute. Le design devait être épuré et aéré, en accord avec les divers axes de thérapies pratiqués, tout en étant accueillant pour les enfants.
-
+                            Ce projet visait également à proposer une navigation intuitive et une identité visuelle rassurante, tout en intégrant des fonctionnalités clés comme un formulaire de contact et une réservation via Doctolib.
+                        </p>
+                        <p>
+                            Ce projet a été réalisé dans le cadre de ma formation Front-End à l'IMTS. Il s'est déroulé en deux grandes étapes, mêlant une phase de maquettage centrée sur le design et une phase d'intégration technique.
                         </p>
                     </div>
 
                     <div className="showcase-images">
                     
                         <img className="img-long" src={home} alt="Page d'accueil du projet Elise Amar" />
+                        <div className="case-study">
+                            <p>
+                                <span className="bold-text upper">
+                                    Processus de Conception et de Réalisation
+                                </span>
+                            </p>
+                            <p>
+                                La première étape du projet a consisté à concevoir une maquette fidèle aux attentes d'Elise Amar et adaptée aux besoins des utilisateurs. J'ai débuté par une analyse comparative des sites web dans le domaine de la psychologie. Ce benchmark a permis d'identifier des tendances pertinentes et de définir les priorités en matière d'ergonomie et de design.
+                            </p>
+                            <p>
+
+                                Ensuite, j'ai élaboré des wireframes détaillés pour structurer chaque page et organiser les éléments visuels et textuels de manière cohérente. Les wireframes ont servi de base pour la création d'une maquette finale sur Figma. La palette de couleurs, définie dans le cahier des charges, s'appuyait sur des tons pastels, principalement des bleus et des verts, afin de transmettre un sentiment de sérénité et de confiance. La maquette a été conçue avec soin pour garantir une intégration fluide, en tenant compte des principes d'accessibilité et des besoins techniques de mes camarades en charge de cette phase.
+                            </p>
+                        </div>
+                        <div className="case-study">
+                            <p>
+                                <span className="bold-text upper">
+                                    Processus de Conception et de Réalisation
+                                </span>
+                            </p>
+
+                        </div>
                         <img src={office} alt="Page d'information du cabinet d'Elise Amar" />
                         <img src={about} alt="Page d'information sur les thérapies du cabinet" />
                         <img className="img-long" src={mobileMockup} alt="Différentes vue du site sur mobile" />

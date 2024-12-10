@@ -58,18 +58,21 @@
 }
 
 
-.single-project .project-presentation .context{
+.single-project .project-presentation .case-study{
     display: flex;
     flex-direction: column;
     gap: var(--sp-12);
 }
 
-.single-project .project-presentation .context p{
+.single-project .project-presentation p{
     font-weight: 500;
     text-transform: none;
     line-height: 150%;
 }
-.single-project .project-presentation .context p span.upper{
+.single-project .project-presentation .showcase-images p:not(span.upper){
+    text-transform: initial;
+}
+.single-project .project-presentation p span.upper{
     text-transform: uppercase;
     font-size: var(--fs-base);
 }
@@ -103,7 +106,7 @@
         padding: var(--sp-56) 0;
     }
     .single-project .project-presentation .context p{
-        width: 43.75rem;
+        width: 49%;
     }
 
     .single-project h1{

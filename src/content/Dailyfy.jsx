@@ -50,7 +50,7 @@ export default function Dailyfy(){
                             <span className="bold-text upper">Stage chez Click&Digital - Agence de Communication Web à Saint-Malo</span>
                         </p>
                         <p>
-                            J’ai effectué mon stage chez Click&Digital, une agence dirigée par Antoine Sebille, spécialisée dans la communication numérique. L'agence accompagne les entreprises dans leur stratégie en ligne, incluant la création de sites web, les stratégies SEO/SEA, la gestion des réseaux sociaux et la création d'identités visuelles.  
+                            J'ai effectué mon stage chez Click&Digital, une agence dirigée par Antoine Sebille, spécialisée dans la communication numérique. L'agence accompagne les entreprises dans leur stratégie en ligne, incluant la création de sites web, les stratégies SEO/SEA, la gestion des réseaux sociaux et la création d'identités visuelles.  
                         </p>
                         <p>
                             J'ai principalement travaillé sur le projet Dailyfy, une application SaaS développée pour optimiser la gestion des réseaux sociaux. Mon rôle a été axé sur l'analyse de l'expérience utilisateur (UX) et de l'interface utilisateur (UI), afin d'identifier des opportunités d'amélioration et d'implémenter des changements significatifs. J'ai également pris en charge l'intégration des modifications en utilisant CSS, JavaScript et PHP pour assurer une interface fluide, réactive et esthétiquement plaisante.
