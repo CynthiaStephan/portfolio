@@ -7,6 +7,7 @@ import addMenu from "../assets/img/miamapp/add-menu.jpg"
 import mockup from "../assets/img/miamapp/miamapp-mockup.jpg"
 import month from "../assets/img/miamapp/inscription-moi.jpg"
 import invoice from "../assets/img/miamapp/facturation.jpg"
+import ProjectFooter from "../components/ProjectFooter"
 
 export default function MiamApp(){
 
@@ -78,6 +79,8 @@ export default function MiamApp(){
 
 
                 </section>
+
+                <ProjectFooter currentProject={'/miamapp'}/>
 
             </main>
             <Footer />

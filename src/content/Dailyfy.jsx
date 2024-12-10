@@ -4,6 +4,7 @@ import "./ProjectPresentation.css";
 import mockup from "../assets/img/mockup/mockup-dailyfy.jpg";
 import calendar from "../assets/img/dailyfy/calendar.jpg";
 import publish from "../assets/img/dailyfy/publish.jpg";
+import ProjectFooter from "../components/ProjectFooter";
 
 export default function Dailyfy(){
     return(       
@@ -66,6 +67,8 @@ export default function Dailyfy(){
 
 
                 </section>
+
+                <ProjectFooter currentProject={'/dailyfy'}/>
 
             </main>
             <Footer />

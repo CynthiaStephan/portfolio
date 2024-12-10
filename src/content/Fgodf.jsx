@@ -8,6 +8,7 @@ import wfSoliciter from "../assets/img/godf/wf-soliciter.jpg"
 import soliciter from "../assets/img/godf/soliciter.jpg"
 import wfSoutevenir from "../assets/img/godf/wf-soutenir.jpg"
 import soutenir from "../assets/img/godf/soutenir.jpg"
+import ProjectFooter from "../components/ProjectFooter"
 
 export default function Fgodf(){
 
@@ -75,6 +76,8 @@ export default function Fgodf(){
 
 
                 </section>
+
+                <ProjectFooter currentProject={'/fgodf'}/>
 
             </main>
             <Footer />

@@ -6,6 +6,7 @@ import mobileMockup from "../assets/img/eliseamar/mockup-mobile-elise.jpg"
 import home from "../assets/img/eliseamar/home.jpg"
 import office from "../assets/img/eliseamar/office.jpg"
 import about from "../assets/img/eliseamar/about.jpg"
+import ProjectFooter from "../components/ProjectFooter"
 
 export default function EliseAmar(){
 
@@ -73,6 +74,7 @@ export default function EliseAmar(){
 
 
                 </section>
+                <ProjectFooter currentProject={'/eliseamar'}/>
 
             </main>
             <Footer />

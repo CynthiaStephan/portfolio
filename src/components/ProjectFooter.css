@@ -1,0 +1,103 @@
+section.home-projects{
+    padding: var(--sp-56) 0;
+    display: flex;
+    flex-direction: column;
+    gap: var(--sp-36);
+}
+
+section.home-projects h2{
+    text-align: end;
+}
+
+section.home-projects h3.project-name{
+    font-size: var(--fs-lg);
+    font-weight: 800;
+}
+
+section.home-projects a{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--color-font);
+}
+
+section.home-projects .project-arrow{
+    height: var(--sp-36);
+
+}
+
+section.home-projects ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+section.home-projects ul li{
+    padding: var(--sp-16) 0;
+    border-top: 1px solid black;
+}
+section.home-projects ul li:last-child{
+    border-bottom: 1px solid black;
+}
+section.home-projects ul li {
+    position: relative;
+}
+
+section.home-projects div.project-info{
+    display: flex;
+    flex-direction: column;
+    gap: var(--sp-4);
+}
+
+section.home-projects div.project-info p{
+    font-size: var(--fs-sm);
+}
+
+section.home-projects .hover-img {
+    position: absolute;
+    top:20%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    width: 30vw; 
+    height: auto;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.6s cubic-bezier(0.33, 1, 0.68, 1); 
+    z-index: 2; 
+}
+
+section.home-projects .img-fluid {
+    width: 100%;
+    height: auto;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+
+@media (min-width: 768px){
+    section.home-projects{
+        padding: var(--sp-92) 0;
+    }
+
+    section.home-projects ul li:hover .hover-img {
+        opacity: 1;
+        transition: opacity 0.6s cubic-bezier(0.33, 1, 0.68, 1); 
+
+    }
+
+    section.home-projects .hover-img {
+        width: 25vw;
+        z-index: 100;
+    }
+
+    section.home-projects ul li{
+        transition: padding 0.6s cubic-bezier(0.33, 1, 0.68, 1);
+    }
+
+    section.home-projects div.project-info p{
+        font-size: var(--fs-base);
+    }
+
+    section.home-projects ul li:hover{
+        padding: var(--sp-32) 0;
+    }
+}
