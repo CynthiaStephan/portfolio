@@ -77,6 +77,15 @@
     font-size: var(--fs-base);
 }
 
+.single-project div.case-study ul{
+    list-style-position: inside;
+}
+
+.single-project div.case-study li{
+    text-transform: none;
+    font-weight: 500;
+}
+
 
 
 
@@ -111,6 +120,10 @@
 
     .single-project h1{
         line-height: 11rem;
+    }
+
+    .single-project .project-presentation div.case-study{
+        padding: var(--sp-12) 0;
     }
         
 }

@@ -20,7 +20,7 @@ export default function Dailyfy(){
                         <div className="project-info-detail">
                             <ul>
                                 <li>
-                                    <p><span className="bold-text">Année</span> : 2023</p>
+                                    <p><span className="bold-text">Année</span> : 2024</p>
                                 </li>
                                 <li>
                                     <p><span className="bold-text">Client</span> : Dailyfy</p>
@@ -44,23 +44,46 @@ export default function Dailyfy(){
                 </section>
 
                 <section className="project-presentation">
-                    <div className="context">
+                    <div className="context case-study">
                         <h2>Contexte</h2>
                         <p>
                             <span className="bold-text upper">Stage chez Click&Digital - Agence de Communication Web à Saint-Malo</span>
                         </p>
                         <p>
-                            J'ai effectué mon stage chez Click&Digital, une agence dirigée par Antoine Sebille, spécialisée dans la communication numérique. L'agence accompagne les entreprises dans leur stratégie en ligne, incluant la création de sites web, les stratégies SEO/SEA, la gestion des réseaux sociaux et la création d'identités visuelles.  
-                        </p>
-                        <p>
-                            J'ai principalement travaillé sur le projet Dailyfy, une application SaaS développée pour optimiser la gestion des réseaux sociaux. Mon rôle a été axé sur l'analyse de l'expérience utilisateur (UX) et de l'interface utilisateur (UI), afin d'identifier des opportunités d'amélioration et d'implémenter des changements significatifs. J'ai également pris en charge l'intégration des modifications en utilisant CSS, JavaScript et PHP pour assurer une interface fluide, réactive et esthétiquement plaisante.
+                            Lors de mon stage chez Click&Digital, une agence web à Saint-Malo, j'ai eu l'opportunité de participer au développement de Dailyfy, une application SaaS dédiée à la gestion des réseaux sociaux pour les entreprises. Mon rôle principal a été de travailler sur le développement Frontend, tout en apportant des améliorations UX/UI pour améliorer l'expérience des utilisateurs.
                         </p>
                     </div>
 
                     <div className="showcase-images">
                     
-                        <img src={calendar} alt="Page d'information du cabinet d'Elise Amar" />
-                        <img src={publish} alt="Page d'information sur les thérapies du cabinet" />
+                        <img src={calendar} alt="Interface calendier de publication" />
+                        <img src={publish} alt="Interface de planification de publication" />
+                        <div className="case-study">
+                            <p>
+                                <span className="bold-text upper">Développement Frontend : Solution technique et pratique</span>
+                            </p>
+                            <p>
+                                En tant que développeuse Frontend, j'ai transformé les besoins du projet en solutions concrètes en utilisant CSS, JavaScript et PHP. J'ai réorganisé la navigation pour la rendre plus intuitive, optimisé les styles CSS pour une meilleure réactivité et intégré des animations pour rendre l'application plus engageante. J'ai aussi veillé à ce que l'application fonctionne parfaitement sur tous les types d'appareils, ce qui m'a permis d'acquérir des compétences supplémentaires en PHP et en programmation orientée objet
+                            </p>
+                        </div>
+                        <div className="case-study">
+                            <p>
+                                <span className="bold-text upper">Analyse UX/UI : Optimisation de l'expérience utilisateur</span>
+                            </p>
+                            <p>
+                                En parallèle, j'ai analysé l'interface de Dailyfy pour identifier des axes d'amélioration. En me basant sur une étude comparative des applications concurrentes, j'ai pu proposer des changements qui ont amélioré la clarté visuelle et la navigation. Ces recommandations ont ensuite été intégrées dans mes travaux de développement, assurant une cohérence entre l'analyse UX/UI et les modifications techniques.
+                            </p>
+                        </div>
+
+                        <div className="case-study">
+                            <p>
+                                <span className="bold-text upper">Conclusion</span>
+                            </p>
+                            <p>
+                                Les modifications apportées à Dailyfy ont permis de simplifier son utilisation et d'améliorer l'interface.
+                                Ce stage m'a permis de renforcer mes compétences en développement Frontend et UX/UI, tout en découvrant de nouvelles technologies comme le PHP et la programmation orientée objet, ce qui m'a donné de nouvelles perspectives pour mes futurs projets.
+                            </p>
+                        </div>
 
 
                     </div>

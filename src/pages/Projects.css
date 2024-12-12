@@ -83,8 +83,7 @@ section.projects-list{
 @media (min-width: 768px){
     section.projects-hero p{
         font-size: var(--fs-md);
-        width: 70%;
-        padding-left: 34%;
+        padding-left: 51%;
     }
 
     section.projects-hero{

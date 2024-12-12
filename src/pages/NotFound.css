@@ -13,6 +13,8 @@ main.not-found{
     & p{
         font-size: var(--fs-md);
         line-height: 120%;
+        text-align: center;
+        text-wrap: balance;
     }
 
     & a{
@@ -31,8 +33,6 @@ main.not-found{
         }
         
         & p{
-            margin-left: 17%;
-            margin-right: 25%;
             margin-bottom: var(--sp-24);
         }
     } 

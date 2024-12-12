@@ -70,27 +70,74 @@ export default function EliseAmar(){
                         <div className="case-study">
                             <p>
                                 <span className="bold-text upper">
-                                    Processus de Conception et de Réalisation
+                                    Processus de Conception : Maquettage
                                 </span>
                             </p>
                             <p>
-                                La première étape du projet a consisté à concevoir une maquette fidèle aux attentes d'Elise Amar et adaptée aux besoins des utilisateurs. J'ai débuté par une analyse comparative des sites web dans le domaine de la psychologie. Ce benchmark a permis d'identifier des tendances pertinentes et de définir les priorités en matière d'ergonomie et de design.
+                                Pour répondre aux besoins d'Elise Amar et de ses utilisateurs, j'ai commencé par analyser des sites similaires (benchmark). Cela m'a permis d'identifier les attentes en termes d'ergonomie et de design.
                             </p>
                             <p>
-
-                                Ensuite, j'ai élaboré des wireframes détaillés pour structurer chaque page et organiser les éléments visuels et textuels de manière cohérente. Les wireframes ont servi de base pour la création d'une maquette finale sur Figma. La palette de couleurs, définie dans le cahier des charges, s'appuyait sur des tons pastels, principalement des bleus et des verts, afin de transmettre un sentiment de sérénité et de confiance. La maquette a été conçue avec soin pour garantir une intégration fluide, en tenant compte des principes d'accessibilité et des besoins techniques de mes camarades en charge de cette phase.
+                                J'ai ensuite conçu des wireframes pour structurer les pages et optimiser l'organisation des contenus. Ces bases ont conduit à une maquette réalisée sur Figma, utilisant une palette de tons pastels (bleu et vert) pour inspirer sérénité et confiance. La maquette a également intégré des principes d'accessibilité, essentiels pour garantir une expérience inclusive.
                             </p>
                         </div>
                         <div className="case-study">
                             <p>
                                 <span className="bold-text upper">
-                                    Processus de Conception et de Réalisation
+                                    Processus de Réalisation : Intégration
                                 </span>
                             </p>
-
+                            <p>
+                                J'ai développé le site en HTML5 et CSS3 avec une structure sémantique et des balises ARIA pour l'accessibilité. La mise en page, réalisée avec Flexbox, assure une compatibilité responsive sur tous les appareils.
+                            </p>
+                            <p>
+                                Des fonctionnalités comme une carte interactive Google Maps et un bouton de réservation Doctolib ont été intégrées. Des tests sur différents navigateurs ont garanti un rendu fluide et uniforme.
+                            </p>
                         </div>
                         <img src={office} alt="Page d'information du cabinet d'Elise Amar" />
                         <img src={about} alt="Page d'information sur les thérapies du cabinet" />
+                        <div className="case-study">
+                            <p>
+                                <span className="bold-text upper">
+                                    Structure et Contenu du Site
+                                </span>
+                            </p>
+                            <ul>
+                                <li>
+                                    <span className="bold-text">Accueil </span>: Présentation des services et bouton de réservation rapide.
+                                </li>
+                                <li>
+                                    <span className="bold-text">Qui suis-je ? </span>: Parcours et engagements professionnels.
+                                </li>
+                                <li>
+                                    <span className="bold-text">Pour qui ? </span>: Description des types de thérapies (individuelles, familiales, conjugales).
+                                </li>
+                                <li>
+                                    <span className="bold-text">Blog </span>: Articles informatifs sur des sujets psychologiques.
+                                </li>
+                                <li>
+                                    <span className="bold-text">Contact </span>: Formulaire sécurisé et carte interactive pour localiser le cabinet.
+                                </li>
+                            </ul>
+                            <p>
+                                Le site comprend plusieurs pages clés pour une navigation intuitive :
+                            </p>
+                            <p>
+                                Visuellement, des couleurs douces et des images soigneusement choisies renforcent l'identité apaisante et professionnelle du cabinet.
+                            </p>
+                        </div>
+                        <div className="case-study">
+                            <p>
+                                <span className="bold-text upper">
+                                    Bilan et Perspectives
+                                </span>
+                            </p>
+                            <p>
+                                Le projet respecte le cahier des charges, avec une intégration fidèle à la maquette et l'application des principes d'accessibilité et de web sémantique, garantissant une navigation intuitive et inclusive.
+                            </p>
+                            <p>
+                                Cette expérience m'a permis de consolider mes compétences en design et intégration, tout en répondant aux besoins spécifiques du client.
+                            </p>
+                        </div>
                         <img className="img-long" src={mobileMockup} alt="Différentes vue du site sur mobile" />
 
 

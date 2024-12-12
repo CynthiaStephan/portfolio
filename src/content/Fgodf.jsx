@@ -50,26 +50,45 @@ export default function Fgodf(){
                 </section>
 
                 <section className="project-presentation">
-                    <div className="context">
+                    <div className="context case-study">
                         <h2>Contexte</h2>
                         <p>
-                            Lors de ce stage, j'ai participé à la refonte du site web d'une fondation dans le cadre de ma formation Prépa Num. J'ai contribué à la création des maquettes fonctionnelles et à la définition de l'arborescence du site pour préparer un cahier des charges destiné à une agence web.
+                            Dans le cadre d'un stage, j'ai participé à la refonte du site web d'une fondation. L'objectif était de moderniser le site et d'améliorer l'expérience utilisateur. Mon rôle a consisté à contribuer à la création des maquettes fonctionnelles et à la définition de l'arborescence du site, dans le but de préparer un cahier des charges destiné à une agence web.
                         </p>
-                        <p>
-                            <span className="bold-text upper">Contributions : </span><br />
-                                Maquettes fonctionnelles : Conception de maquettes pour mobile et desktop, visant à optimiser l'ergonomie et l'expérience utilisateur. <br />
-                                Arborescence du site : Structuration logique des contenus pour assurer une navigation fluide et intuitive.</p>
                     </div>
 
                     <div className="showcase-images">
                     
                         <img src={wfAction} alt="Wireframe de la page de présentation des actions" />
                         <img src={action} alt="Résultat final en ligne se la page actions" />
+                        <div className="case-study">
+                            <p>
+                                <span className="bold-text upper">Processus de Conception et de Réalisation</span>
+                            </p>
+                            <p>
+                                J'ai conçu des maquettes fonctionnelles pour les versions mobile et desktop, en optimisant l'ergonomie et l'expérience utilisateur. La priorité était de garantir une navigation fluide et intuitive, en structurant les contenus de manière logique. Par ailleurs, j'ai participé à la définition de l'arborescence du site, afin de faciliter l'accès à l'information et d'assurer une hiérarchisation cohérente des sections.
+                            </p>
+                        </div>
+                        <div className="case-study">
+                            <p>
+                                <span className="bold-text upper">Structure et Contenu du Site</span>
+                            </p>
+                            <p>
+                                Le site refondu présente une interface moderne et une structure bien définie. L'arborescence facilite la navigation et permet aux utilisateurs de trouver facilement les informations sur les missions et les projets de la fondation. La mise en avant des éléments clés, comme les événements et les possibilités de soutien, assure une expérience utilisateur optimale.
+                            </p>
+                        </div>
                         <img src={wfSoliciter} alt="Wireframe de la page de présentation des actions" />
                         <img src={soliciter} alt="Résultat final en ligne se la page actions" />
                         <img src={wfSoutevenir} alt="Wireframe de la page de présentation des actions" />
                         <img src={soutenir} alt="Résultat final en ligne se la page actions" />
-
+                        <div className="case-study">
+                            <p>
+                                <span className="bold-text upper">Bilan</span>
+                            </p>
+                            <p>
+                            Le wireframe conçu a servi de base solide pour le site final. Il a permis au client de se projeter facilement dans le projet et a facilité la validation de l'étape de création du cahier des charges. Les maquettes fonctionnelles et l'arborescence ont fourni une direction claire pour le développement par l'agence web.
+                            </p>
+                        </div>
 
 
                     </div>

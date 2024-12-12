@@ -31,7 +31,6 @@ section.about-text{
 section.about-text p{
     text-transform: none;
     font-weight: 400;
-    padding: 0 var(--sp-12);
     font-size: 18px;
     line-height: 1.75rem;
 
@@ -55,6 +54,10 @@ section.about-text p{
         font-size: var(--fs-md);
         width: 80%;
         padding-left: 17%;
+    }
+
+    section.about-text p{
+        padding: 0 var(--sp-12);
     }
 
     section.about div.frame img{
