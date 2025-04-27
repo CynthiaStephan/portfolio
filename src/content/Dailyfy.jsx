@@ -5,8 +5,16 @@ import mockup from "../assets/img/mockup/mockup-dailyfy.jpg";
 import calendar from "../assets/img/dailyfy/calendar.jpg";
 import publish from "../assets/img/dailyfy/publish.jpg";
 import ProjectFooter from "../components/ProjectFooter";
+import { useEffect } from "react";
 
 export default function Dailyfy(){
+    // Import the flowmap effect
+    useEffect(() => {
+        import('../../flowmap.js').then((module) => {
+            module.applyFlowmapEffect(); 
+        }).catch((err) => console.error("Erreur lors de l'import du module Flowmap :", err));
+    }, []);
+    
     return(       
         <>
             <Header />
@@ -14,8 +22,10 @@ export default function Dailyfy(){
                 <section className="project-presentation-hero">
                     <h1>Dailyfy</h1>
                     
-                    <div className="project-info">          
-                        <img className="project-mockup" src={mockup} alt="mockup du projet MiamApp" />
+                    <div className="project-info">     
+                        <div className="flowmap-img">
+                            <img className="project-mockup" src={mockup} alt="mockup du projet MiamApp" />
+                        </div>     
                         
                         <div className="project-info-detail">
                             <ul>
@@ -37,7 +47,7 @@ export default function Dailyfy(){
                             </ul>
                             
                             <div className="project-link one-link">
-                                <a href="https://www.dailyfy.co/fr/" target="blank">Voir le site ↗</a>
+                                <a className="link-animation" href="https://www.dailyfy.co/fr/" target="blank">Voir le site ↗</a>
                             </div>
                         </div>
                     </div>

@@ -7,9 +7,16 @@ import home from "../assets/img/eliseamar/home.jpg"
 import office from "../assets/img/eliseamar/office.jpg"
 import about from "../assets/img/eliseamar/about.jpg"
 import ProjectFooter from "../components/ProjectFooter"
+import { useEffect } from "react"
 
 export default function EliseAmar(){
 
+    useEffect(() => {
+        import('../../flowmap.js').then((module) => {
+            module.applyFlowmapEffect(); 
+        }).catch((err) => console.error("Erreur lors de l'import du module Flowmap :", err));
+    }, []);
+    
     return(
         <>
             <Header />
@@ -17,8 +24,10 @@ export default function EliseAmar(){
                 <section className="project-presentation-hero">
                     <h1>Elise Amar</h1>
                     
-                    <div className="project-info">          
-                        <img className="project-mockup" src={mockup} alt="mockup du projet Elise Amar" />
+                    <div className="project-info">
+                        <div className="flowmap-img">   
+                            <img className="project-mockup" src={mockup} alt="mockup du projet Elise Amar" />
+                        </div>
                         
                         <div className="project-info-detail">
                             <ul>
@@ -40,8 +49,8 @@ export default function EliseAmar(){
                             </ul>
                             
                             <div className="project-link">
-                                <a href="https://www.figma.com/proto/cKNEiqm5wlN7iL7hcSPBRm/Psychologue_FrontEnd?page-id=0%3A1&node-id=48-4&viewport=741%2C900%2C0.05&t=XT0vBMxMDICh2b1H-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=48%3A4&show-proto-sidebar=1" target="blank">Voir la maquette ↗</a>
-                                <a href="https://cynthia.errhub404.fr/elise-psychologue/" target="blank">Voir le site ↗</a>
+                                <a className="link-animation" href="https://www.figma.com/proto/cKNEiqm5wlN7iL7hcSPBRm/Psychologue_FrontEnd?page-id=0%3A1&node-id=48-4&viewport=741%2C900%2C0.05&t=XT0vBMxMDICh2b1H-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=48%3A4&show-proto-sidebar=1" target="blank">Voir la maquette ↗</a>
+                                <a className="link-animation" href="https://cynthia.errhub404.fr/elise-psychologue/" target="blank">Voir le site ↗</a>
                             </div>
                         </div>
                     </div>

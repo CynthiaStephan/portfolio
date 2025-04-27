@@ -3,7 +3,6 @@ import mockupMiam from "../assets/img/mockup/mockup-miam.jpg";
 import mockupElise from "../assets/img/mockup/mockup-elise.jpg"
 import mockupDailyfy from "../assets/img/mockup/mockup-dailyfy.jpg"
 import mockupFgodf from "../assets/img/mockup/mockup-fgodf.jpg"
-import { Link } from "react-router-dom";
 import { useEffect, useLayoutEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
@@ -49,7 +48,7 @@ export default function Projects(){
         })
 
         return () => context.revert()
-    }, [])
+    }, [mm])
 
     return(
         <>

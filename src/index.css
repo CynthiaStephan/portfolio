@@ -104,7 +104,7 @@ div.background-columns{
   pointer-events: none;
 }
 
-/* Background nosie */
+/* #region  ________ Background noise _______*/
 
 body::before, header::before{
   content: "";
@@ -172,6 +172,8 @@ body::before, header::before{
   }
 }
 
+/* #endregion */
+
 div.background-columns div.column.desktop{
   display: none;
 }
@@ -202,6 +204,28 @@ h3{
 a{
   text-decoration: none;
   color: var(--color-font);
+  position: relative;
+  padding-bottom: 2px;
+}
+
+a:not(main *)::after,
+.link-animation::after{
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-font);
+  transform-origin: bottom right;
+  transition: transform 0.6s cubic-bezier(0.33, 1, 0.68, 1);
+}
+
+a:hover:not(main *)::after,
+.link-animation:hover::after{
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
 
 .d-none{
@@ -214,6 +238,7 @@ span.bold-text{
 h1, h2, h3, h4, .balance{
   text-wrap: balance;
 }
+
 
 
 

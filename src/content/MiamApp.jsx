@@ -8,8 +8,15 @@ import mockup from "../assets/img/miamapp/miamapp-mockup.jpg"
 import month from "../assets/img/miamapp/inscription-moi.jpg"
 import invoice from "../assets/img/miamapp/facturation.jpg"
 import ProjectFooter from "../components/ProjectFooter"
+import { useEffect } from "react"
 
 export default function MiamApp(){
+
+    useEffect(() => {
+        import('../../flowmap.js').then((module) => {
+            module.applyFlowmapEffect(); 
+        }).catch((err) => console.error("Erreur lors de l'import du module Flowmap :", err));
+    }, []);
 
     return(
         <>
@@ -18,8 +25,10 @@ export default function MiamApp(){
                 <section className="project-presentation-hero">
                     <h1>MiamApp</h1>
 
-                    <div className="project-info">          
-                        <img className="project-mockup" src={mockupMiam} alt="mockup du projet MiamApp" />
+                    <div className="project-info">   
+                        <div className="flowmap-img">
+                            <img className="project-mockup" src={mockupMiam} alt="mockup du projet MiamApp" />
+                        </div>
                         
                         <div className="project-info-detail">
                             <ul>
@@ -41,7 +50,7 @@ export default function MiamApp(){
                             </ul>
                             
                             <div className="project-link one-link">
-                                <a href="https://www.figma.com/design/REWBkvdLH7BU7TZnU8PCcr/Miamapp---Interface-user-Edit?node-id=2037-3511&t=9gRsdnXwZkOXlnZo-1" target="blank">Voir la maquette ↗</a>
+                                <a className="link-animation" href="https://www.figma.com/design/REWBkvdLH7BU7TZnU8PCcr/Miamapp---Interface-user-Edit?node-id=2037-3511&t=9gRsdnXwZkOXlnZo-1" target="blank">Voir la maquette ↗</a>
                             </div>
                         </div>
                     </div>

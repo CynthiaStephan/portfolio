@@ -7,9 +7,9 @@ import About from './pages/About'
 import EliseAmar from './content/EliseAmar'
 import Dailyfy from './content/Dailyfy'
 import Fgodf from './content/Fgodf'
-import MentionsLegales from './pages/mentionsLegales'
 import NotFound from './pages/NotFound'
 import useSmoothScroll from './assets/UseSmothScroll'
+import MentionsLegales from './pages/MentionsLegales'
 
 function App() {
 

@@ -9,9 +9,15 @@ import soliciter from "../assets/img/godf/soliciter.jpg"
 import wfSoutevenir from "../assets/img/godf/wf-soutenir.jpg"
 import soutenir from "../assets/img/godf/soutenir.jpg"
 import ProjectFooter from "../components/ProjectFooter"
+import { useEffect } from "react"
 
 export default function Fgodf(){
 
+    useEffect(() => {
+        import('../../flowmap.js').then((module) => {
+            module.applyFlowmapEffect(); 
+        }).catch((err) => console.error("Erreur lors de l'import du module Flowmap :", err));
+    }, []);
 
     return(
         <>
@@ -20,8 +26,10 @@ export default function Fgodf(){
                 <section className="project-presentation-hero">
                     <h1>Fondation Grand Orient de France</h1>
                     
-                    <div className="project-info">          
-                        <img className="project-mockup" src={mockup} alt="mockup du projet Elise Amar" />
+                    <div className="project-info"> 
+                        <div className="flowmap-img">         
+                            <img className="project-mockup" src={mockup} alt="mockup du projet Elise Amar" />
+                        </div>
                         
                         <div className="project-info-detail">
                             <ul>
@@ -43,7 +51,7 @@ export default function Fgodf(){
                             </ul>
                             
                             <div className="project-link one-link">
-                                <a  href="https://www.fondation-godf.org/" target="blank">Voir le site ↗</a>
+                                <a className="link-animation" href="https://www.fondation-godf.org/" target="blank">Voir le site ↗</a>
                             </div>
                         </div>
                     </div>
