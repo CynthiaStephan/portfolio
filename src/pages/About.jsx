@@ -37,7 +37,7 @@ export default function About(){
             <section className="about" id="about">
                 <section className="about-hero">
                     <h2>A propos</h2>
-                    <p><span className="bold-text">Du pixel au backend :</span><br/> concevoir au-delà de l'interface</p>
+                    <p><span className="bold-text">Du pixel au serveur :</span><br/> concevoir au-delà de l'interface</p>
 
                 </section>
                 <div ref={container} className="frame">
@@ -48,13 +48,13 @@ export default function About(){
                     
                     <section ref={seconditem} className="about-text">
                         <p>
-                            Hello ! Moi c'est Cynthia. Mon parcours vers le développement web s'est construit autour de mon attrait pour l'art et la technologie. J'ai d'abord été captivée par le design UI/UX, j'adore cette sensation quand une interface est parfaitement intuitive, quand tout semble naturellement à sa place. C'est ce qui m'a poussée à explorer l'envers du décor, à comprendre les rouages techniques derrière les maquettes.
+                            Hello ! Moi c'est Cynthia. Mon parcours vers le développement web s'est construit autour de mon attrait pour l'art et la technologie. C'est ce qui m'a d'abord menée vers le design UI/UX. J'adore cette sensation quand une interface “fait sens” tout de suite, quand tout semble fluide et intuitif. C'est ce qui m'a donné envie d'aller plus loin, de comprendre l'envers du décor et les mécanismes techniques derrière l'écrans.
                         </p>
                         <p>
-                            Après m'être investie dans le développement front-end, je suis actuellement en formation Back-End à l'IMTS de Dinard pour évoluer vers le fullstack. Cette double compétence me permet d'avoir une vision globale des projets : créer des interfaces agréables tout en concevant l'architecture technique qui les soutient. Je trouve une vraie satisfaction à maîtriser ces deux aspects complémentaires.
+                            Curieuse d'aller au-delà du front-end, j'ai suivi une formation back-end à l'IMTS de Dinard. Cette double compétence me permet d'avoir une vision globale des projets : concevoir des interfaces agréables à utiliser, tout en construisant l'architecture technique qui les fait fonctionner. J'aime cette complémentarité entre le visible et l'invisible, entre l'expérience utilisateur et la logique du code.
                         </p>
                         <p>
-                            Ce qui me motive au quotidien ? Voir un projet prendre forme étape par étape. Je reste à l'affût des évolutions technologiques pour enrichir mes compétences et créer des produits pertinentes. Pour moi, chaque nouveauté technique est une chance d'améliorer concrètement l'expérience des utilisateurs.
+                            Ce qui me motive ? Voir un projet prendre vie, étape par étape. Je suis toujours curieuse des nouvelles technologies : parce que chaque avancée est une occasion d'innover, d'affiner mes compétences et d'offrir des expériences utilisateurs plus fluides, plus pertinentes.
                         </p>
      
 

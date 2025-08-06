@@ -41,8 +41,8 @@ export default function Header(){
                 </nav>
                 <div className="nav-contact">
                     <Link target="black" to="https://github.com/CynthiaStephan">GitHub,</Link>
-                    <Link target="blanck" to="https://www.linkedin.com/in/cynthia-stephan/">Linkedin,</Link>
-                    <Link to="mailto: cynthia.stephan@institutsolacroup.com">EMail</Link>
+                    <Link target="blanck" to="https://www.linkedin.com/in/cynthia-stephan/">Linkedin</Link>
+
                 </div>
                 
 

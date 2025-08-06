@@ -18,14 +18,11 @@ export default function Homepage() {
                     <h1>Cynthia Stephan</h1>
                     <div>
                         <h3 className="profession">Développeuse FullStack &<br /> Designer UI/UX à Dinan</h3>
-                        <p className="school">En formation à l'IMTS</p>
+                        <p className="school">Diplômé à l'IMTS</p>
                     </div>
                 </section>
 
                 <section className="home-presentation">
-                    <p className='balance'>
-                        Actuellement en formation Développeuse Back-End à l'IMTS, je suis à la recherche d'une <span className="bold-text">alternance</span> dès maintenant. 
-                    </p>
                     <p>
                         Mon parcours vers le développement web s'est construit autour de ma double passion pour l'art et la technologie. 
                     </p>
@@ -35,10 +32,9 @@ export default function Homepage() {
                 
                 <About />
                 
-                <section className="contact-frame">
+                {/* <section className="contact-frame">
                     <h2>Contactez-moi</h2>
-                    <a href="mailto:cynthia.stephan@institutsolacroup.com">Cynthia.stephan@<wbr/>institutsolacroup.com</a>
-                </section>
+                </section> */}
 
             </main>
 

@@ -1,13 +1,13 @@
 :root {
 
   /* ____   Font Size  _____*/
-  --fs-sm: clamp(12px, -0.03vi + 12.12px, 11.74px);
-  --fs-base: clamp(16px, 0.34vi + 14.64px, 19px);
-  --fs-md: clamp(21.33px, 1.07vi + 17.05px, 30.74px);
-  --fs-lg: clamp(28.43px, 2.42vi + 18.74px, 49.74px);
-  --fs-xl: clamp(37.9px, 4.84vi + 18.54px, 80.48px);
-  --fs-xxl: clamp(50.52px, 9.06vi + 14.29px, 130.22px);
-  --fs-xxxl: clamp(67.34px, 16.29vi + 2.18px, 210.69px);
+--fs-sm: clamp(0.75rem, 0.18vi + 0.7rem, 0.85rem);
+--fs-base: clamp(1rem, 0.68vi + 0.83rem, 1.38rem);
+--fs-md: clamp(1.33rem, 1.62vi + 0.93rem, 2.22rem);
+--fs-lg: clamp(1.78rem, 3.31vi + 0.95rem, 3.6rem);
+--fs-xl: clamp(2.37rem, 6.28vi + 0.8rem, 5.82rem);
+--fs-xxl: clamp(3.16rem, 11.39vi + 0.31rem, 9.42rem);
+--fs-xxxl: clamp(4.21rem, 20.07vi + -0.81rem, 15.25rem);
 
   /*____ Colors   ____ */
   --color-bg: #EFF1F0;
@@ -54,6 +54,7 @@
   src: url('./assets/font/GeistVF.woff2') format("truetype-variations");
   font-weight: 1 999;
 }
+
 
 *{
   margin: 0;
@@ -180,8 +181,8 @@ div.background-columns div.column.desktop{
 
 div.column{
   height: 100%;
-  border-left: 1px solid var(--color-font);
-  border-right: 1px solid var(--color-font);
+  border-left: 1px dashed var(--color-font);
+  border-right: 1px dashed var(--color-font);
   opacity: 0.15;
 }
 

@@ -134,6 +134,7 @@ nav.mobile-nav a{
     nav {
       display: flex;
       flex-direction: row;
+      transform: translateX(-8%);
     }
   
     nav ul {
