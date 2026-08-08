@@ -17,7 +17,7 @@ function App() {
 
     return (
         <>
-            
+
             <div className='background-columns'>
                 <div className='column'></div>
                 <div className='column'></div>
@@ -30,17 +30,16 @@ function App() {
             <BrowserRouter basename={import.meta.env.BASE_URL}>
                 <Routes>
                     <Route element={<Homepage />} path="/" />
-                    <Route element={<Projects />} path="projets" />
-                    <Route element={<About />} path='apropos' />
-                    <Route element={<MentionsLegales />} path='legal' />
-                    <Route element={<NotFound />} path='*' />
+                    <Route element={<Projects />} path="/projets" />
+                    <Route element={<About />} path="/apropos" />
+                    <Route element={<MentionsLegales />} path="/legal" />
 
+                    <Route element={<MiamApp />} path="/miamapp" />
+                    <Route element={<EliseAmar />} path="/eliseamar" />
+                    <Route element={<Dailyfy />} path="/dailyfy" />
+                    <Route element={<Fgodf />} path="/fgodf" />
 
-                    <Route element={<MiamApp />} path='/miamapp' />
-                    <Route element={<EliseAmar />} path='/eliseamar' />
-                    <Route element={<Dailyfy />} path='/dailyfy' />
-                    <Route element={<Fgodf />} path='/fgodf' />
-                    
+                    <Route element={<NotFound />} path="*" />
                 </Routes>
             </BrowserRouter>
 
@@ -48,4 +47,4 @@ function App() {
     )
 }
 
-    export default App;
+export default App;
