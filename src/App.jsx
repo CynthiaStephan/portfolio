@@ -40,7 +40,6 @@ function App() {
                     <Route element={<EliseAmar />} path='/eliseamar' />
                     <Route element={<Dailyfy />} path='/dailyfy' />
                     <Route element={<Fgodf />} path='/fgodf' />
-                    
                 </Routes>
             </BrowserRouter>
 
