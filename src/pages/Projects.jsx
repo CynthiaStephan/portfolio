@@ -56,7 +56,7 @@ export default function Projects(){
 
                 <section className="projects-hero">
                     <h2>Projets</h2>
-                    <p className="balance">Différents projets réalisées dans le cadre de ma formation</p>
+                    <p className="balance">Quelques projets réalisés au fil de mon parcours.</p>
                 </section>
 
                 <section ref={container} className="projects-list">
