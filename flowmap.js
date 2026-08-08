@@ -8,28 +8,17 @@ async function loadShader(url) {
 
 // Fonction principale pour appliquer l'effet Flowmap
 async function applyFlowmapEffect() {
-    // Vérifie si l'écran est en mode desktop (par exemple, largeur > 1024px)
     const desktopMediaQuery = window.matchMedia("(min-width: 1024px)");
-
-    // Si la media query correspond (écran desktop), applique l'effet Flowmap
     if (desktopMediaQuery.matches) {
-        // Chargement des shaders et application de l'effet
         loadShadersAndApplyEffect();
-
-        // Applique l'effet au redimensionnement
         window.addEventListener("resize", handleResize);
     } else {
-        // Si l'écran devient mobile ou tablette, on peut désactiver l'effet
         disableFlowmapEffect();
     }
-
-    // Écoute les changements de la media query (par exemple, lors du redimensionnement de la fenêtre)
     desktopMediaQuery.addEventListener("change", (e) => {
         if (e.matches) {
-            // Si l'écran devient plus large que 1024px, active l'effet
             loadShadersAndApplyEffect();
         } else {
-            // Si l'écran devient plus petit, désactive l'effet
             disableFlowmapEffect();
         }
     });
@@ -40,7 +29,7 @@ async function loadShadersAndApplyEffect() {
     const vertexShader = await loadShader("./shaders/vertexShader.glsl");
     const fragmentShader = await loadShader("./shaders/fragmentShader.glsl");
 
-    const imgSize = [2000, 2500]; // Taille de l'image (largeur, hauteur)
+    const imgSize = [2000, 2500];
 
     // Parcourt chaque conteneur d'image avec la classe .flowmap-img
     document.querySelectorAll('.flowmap-img').forEach((imgElement) => {
@@ -116,11 +105,9 @@ async function loadShadersAndApplyEffect() {
 
         const mesh = new Mesh(gl, { geometry, program });
 
-        // Redimensionne lorsque la fenêtre est redimensionnée
         window.addEventListener("resize", resize, false);
         resize();
 
-        // Gestion des événements de souris ou tactiles
         const isTouchCapable = "ontouchstart" in window;
         if (isTouchCapable) {
             imgElement.addEventListener("touchstart", updateMouse, false);
@@ -185,7 +172,6 @@ async function loadShadersAndApplyEffect() {
     });
 }
 
-// Fonction pour désactiver l'effet Flowmap (sur mobile ou tablette)
 function disableFlowmapEffect() {
     document.querySelectorAll('.flowmap-img').forEach((imgElement) => {
         const canvas = imgElement.querySelector('canvas');
@@ -197,9 +183,7 @@ function disableFlowmapEffect() {
     window.removeEventListener("resize", handleResize);
 }
 
-// Fonction de redimensionnement
 function handleResize() {
-    // Réajuster la taille si nécessaire
 }
 
 export { applyFlowmapEffect };

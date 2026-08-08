@@ -48,14 +48,19 @@ export default function About(){
                     
                     <section ref={seconditem} className="about-text">
                         <p>
-                            Hello ! Moi c'est Cynthia. Mon parcours vers le développement web s'est construit autour de mon attrait pour l'art et la technologie. C'est ce qui m'a d'abord menée vers le design UI/UX. J'adore cette sensation quand une interface “fait sens” tout de suite, quand tout semble fluide et intuitif. C'est ce qui m'a donné envie d'aller plus loin, de comprendre l'envers du décor et les mécanismes techniques derrière l'écrans.
+                            Hello, moi c'est Cynthia.
                         </p>
                         <p>
-                            Curieuse d'aller au-delà du front-end, j'ai suivi une formation back-end à l'IMTS de Dinard. Cette double compétence me permet d'avoir une vision globale des projets : concevoir des interfaces agréables à utiliser, tout en construisant l'architecture technique qui les fait fonctionner. J'aime cette complémentarité entre le visible et l'invisible, entre l'expérience utilisateur et la logique du code.
+                           Je suis développeuse FullStack et Product Designer, avec un intérêt particulier pour le front-end et la conception d'interfaces. J'aime autant réfléchir à la manière dont une interface fonctionne qu'à la façon dont elle est construite.
                         </p>
                         <p>
-                            Ce qui me motive ? Voir un projet prendre vie, étape par étape. Je suis toujours curieuse des nouvelles technologies : parce que chaque avancée est une occasion d'innover, d'affiner mes compétences et d'offrir des expériences utilisateurs plus fluides, plus pertinentes.
+                            Mon intérêt pour le web a commencé par le design UI/UX. J'aimais déjà chercher pourquoi une interface fonctionne bien, pourquoi certaines interactions paraissent naturelles et comment rendre une expérience plus simple. Le développement m'a ensuite permis d'aller plus loin et de comprendre ce qui se passe derrière l'écran.
                         </p>
+                        <p>
+                            Aujourd'hui, j'aime avoir cette vision globale d'un projet. Imaginer une interface, réfléchir à son fonctionnement, la concevoir puis la développer. J'aime voir comment chaque partie s'articule pour donner vie au produit et offrir une expérience cohérente à l'utilisateur.
+                        </p>
+                        <p>Je continue à apprendre en réalisant des projets, en expérimentant de nouvelles technologies et en cherchant constamment à améliorer ma façon de concevoir et de développer.</p>
+
      
 
                     </section>

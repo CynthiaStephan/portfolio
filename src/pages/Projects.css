@@ -1,5 +1,5 @@
 section.projects-hero{
-    padding: var(--sp-32) 0 var(--sp-56) 0;
+    padding: var(--sp-32) 0 var(--sp-4) 0;
     display: flex;
     flex-direction: column;
     gap: var(--sp-32);
@@ -84,6 +84,7 @@ section.projects-list{
     section.projects-hero p{
         font-size: var(--fs-md);
         padding-left: 51%;
+        padding-bottom: var(--sp-32);
     }
 
     section.projects-hero{

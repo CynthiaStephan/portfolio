@@ -50,7 +50,7 @@ export default function EliseAmar(){
                             
                             <div className="project-link">
                                 <a className="link-animation" href="https://www.figma.com/proto/cKNEiqm5wlN7iL7hcSPBRm/Psychologue_FrontEnd?page-id=0%3A1&node-id=48-4&viewport=741%2C900%2C0.05&t=XT0vBMxMDICh2b1H-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=48%3A4&show-proto-sidebar=1" target="blank">Voir la maquette ↗</a>
-                                <a className="link-animation" href="https://cynthia.errhub404.fr/elise-psychologue/" target="blank">Voir le site ↗</a>
+                                <a className="link-animation" href="https://cynthiastephan.github.io/elise-amar-website/" target="blank">Voir le site ↗</a>
                             </div>
                         </div>
                     </div>
