@@ -27,7 +27,7 @@ function App() {
                 <div className='column desktop'></div>
             </div>
 
-            <BrowserRouter>
+            <BrowserRouter basename='/portfolio'>
                 <Routes>
                     <Route element={<Homepage />} path="/" />
                     <Route element={<Projects />} path="projets" />
