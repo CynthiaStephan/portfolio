@@ -6,6 +6,7 @@ import calendar from "../assets/img/dailyfy/calendar.jpg";
 import publish from "../assets/img/dailyfy/publish.jpg";
 import ProjectFooter from "../components/ProjectFooter";
 import { useEffect } from "react";
+import { Link } from "react-router-dom";
 
 export default function Dailyfy(){
     // Import the flowmap effect
@@ -47,7 +48,7 @@ export default function Dailyfy(){
                             </ul>
                             
                             <div className="project-link one-link">
-                                <a className="link-animation" href="https://www.dailyfy.co/fr/" target="blank">Voir le site ↗</a>
+                                <Link className="link-animation" to="https://www.dailyfy.co/fr/" target="blank">Voir le site ↗</Link>
                             </div>
                         </div>
                     </div>

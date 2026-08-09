@@ -6,6 +6,7 @@ import mockupFgodf from "../assets/img/mockup/mockup-fgodf.jpg"
 import { useEffect, useLayoutEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import { Link } from "react-router-dom";
 gsap.registerPlugin(ScrollTrigger);
 
 
@@ -62,7 +63,7 @@ export default function Projects(){
                 <section ref={container} className="projects-list">
 
                     <article ref={firstimg} className="design dev item-1">
-                        <a href="dailyfy">
+                        <Link to="/dailyfy">
                             <div className="project-image-frame flowmap-img">
                                 <img className="project-image" src={mockupDailyfy} alt="" />
                             </div>
@@ -75,11 +76,11 @@ export default function Projects(){
                                 </div>
                                 <p className="project-category">Design, Developpement</p>
                             </div>
-                        </a>
+                        </Link>
                     </article>
 
                     <article ref={secondimg} className="design item-2">
-                        <a href="miamapp">
+                        <Link to="/miamapp">
                             <div className="project-image-frame flowmap-img">
                                 <img className="project-image" src={mockupMiam} alt="Mockup du projet MiamApp" />
                             </div>
@@ -92,11 +93,11 @@ export default function Projects(){
                                 </div>
                                 <p className="project-category">Design</p>
                             </div>
-                        </a>
+                        </Link>
                     </article>
                     
                     <article ref={thirdimg} className="design dev item-1">
-                        <a href="eliseamar">
+                        <Link to="/eliseamar">
                             <div className="project-image-frame flowmap-img">
                                 <img className="project-image" src={mockupElise} alt="Mockup du projet Elise Amar" />
                             </div>
@@ -109,11 +110,11 @@ export default function Projects(){
                                 </div>
                                 <p className="project-category">Design, Developpement</p>
                             </div>
-                        </a>
+                        </Link>
                     </article>
 
                     <article ref={fourthimg} className="design item-2">
-                        <a href="fgodf">
+                        <Link to="/fgodf">
                             <div className="project-image-frame flowmap-img">
                                 <img className="project-image" src={mockupFgodf} alt="Mockup du projet Fondation Grand Orient de France" />
                             </div>
@@ -126,7 +127,7 @@ export default function Projects(){
                                 </div>
                                 <p className="project-category">Design</p>
                             </div>
-                        </a>
+                        </Link>
                     </article>
 
                 </section>
