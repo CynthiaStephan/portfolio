@@ -1,4 +1,4 @@
-import { Link, NavLink } from "react-router-dom";
+import { Link, NavLink, useNavigate } from "react-router-dom";
 import './Header.css';
 import { useState } from "react";
 import menuButton from "../assets/img/menu-button.svg"
@@ -8,9 +8,22 @@ export default function Header(){
 
     const [isOpen, setIsOpen] = useState(false);
     const baseUrl = import.meta.env.BASE_URL;
+    const navigate = useNavigate();
   
     const toggleMenu = () => {
       setIsOpen(!isOpen);
+    };
+
+    const handleAnchorClick = (id) => {
+        if (window.location.pathname === '/') {
+            document.getElementById(id)?.scrollIntoView({
+                behavior: 'smooth',
+            });
+        } else {
+            navigate(`/#${id}`);
+        }
+
+        setIsOpen(false);
     };
 
 
@@ -31,21 +44,21 @@ export default function Header(){
                 <nav>
                     <ul>
                         <li>
-                            <a href={`${baseUrl}#top`} onClick={toggleMenu}>
+                            <button onClick={() => handleAnchorClick('top')}>
                                 Accueil,
-                            </a>
+                            </button>
                         </li>
 
                         <li>
-                            <a href={`${baseUrl}#project`} onClick={toggleMenu}>
+                            <button onClick={() => handleAnchorClick('project')}>
                                 Projets,
-                            </a>
+                            </button>
                         </li>
 
                         <li>
-                            <a href={`${baseUrl}#about`} onClick={toggleMenu}>
+                            <button onClick={() => handleAnchorClick('about')}>
                                 A propos
-                            </a>
+                            </button>
                         </li>
                         
                     </ul>
