@@ -7,10 +7,13 @@ import closeButton from "../assets/img/close-button.svg"
 export default function Header(){
 
     const [isOpen, setIsOpen] = useState(false);
+    const baseUrl = import.meta.env.BASE_URL;
   
     const toggleMenu = () => {
       setIsOpen(!isOpen);
     };
+
+
 
     return(
         <>
@@ -23,18 +26,26 @@ export default function Header(){
                     <div className='column '></div>
                     <div className='column desktop'></div>
                 </div>
-                <a className="logo" href="/" >Cynthia Stephan</a>
+                <Link className="logo" to="/" >Cynthia Stephan</Link>
 
                 <nav>
                     <ul>
                         <li>
-                            <a href="/#top">Accueil,</a>
+                            <a href={`${baseUrl}#top`} onClick={toggleMenu}>
+                                Accueil,
+                            </a>
                         </li>
+
                         <li>
-                            <a href="/#project">Projets,</a>
+                            <a href={`${baseUrl}#project`} onClick={toggleMenu}>
+                                Projets,
+                            </a>
                         </li>
+
                         <li>
-                            <a href="/#about">A propos</a>
+                            <a href={`${baseUrl}#about`} onClick={toggleMenu}>
+                                A propos
+                            </a>
                         </li>
                         
                     </ul>
@@ -64,17 +75,25 @@ export default function Header(){
                     <nav className="mobile-nav" role="Navigation Mobile">
                         <ul>
                             <li>
-                                <a href="/#top" onClick={toggleMenu}>Accueil,</a>
+                                <a href={`${baseUrl}#top`} onClick={toggleMenu}>
+                                    Accueil,
+                                </a>
                             </li>
+
                             <li>
-                                <a href="/#project" onClick={toggleMenu}>Projets,</a>
+                                <a href={`${baseUrl}#project`} onClick={toggleMenu}>
+                                    Projets,
+                                </a>
                             </li>
+
                             <li>
-                                <a href="/#about" onClick={toggleMenu}>A propos</a>
+                                <a href={`${baseUrl}#about`} onClick={toggleMenu}>
+                                    A propos
+                                </a>
                             </li>
 
                             <li className="mobile-nav-link" >
-                                <Link to="mailto: cynthia.stephan@institutsolacroup.com" onClick={toggleMenu}>Email</Link>
+                                <Link to="mailto: pro.cynthia.stephan@gmail.com" onClick={toggleMenu}>Email</Link>
                             </li>
                             <li className="mobile-nav-link">
                                 <Link target="blank" to="https://www.linkedin.com/in/cynthia-stephan/" onClick={toggleMenu}>Linkedin</Link>
