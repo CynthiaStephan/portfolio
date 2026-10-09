@@ -16,7 +16,7 @@ export default function Homepage() {
                     <h1>Cynthia<br /> Stephan</h1>
                     <div>
                         <h3 className="profession">Développeuse FullStack &<br /> Product Designer à Dinan</h3>
-                        <p className="school">Making pixels behave & <br /> code misbehave</p>
+                        <p className="school">Making code behave & <br />pixels misbehave</p>
                     </div>
                 </section>
 
